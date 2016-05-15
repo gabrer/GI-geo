@@ -810,8 +810,8 @@ void geoExp::run_inference_splitting_users()
 
 
 						// It prints the inferred automaton in a text file
-						string txtBlueStarpath_alf_A = folder_current_prefix_len+current_prefix+"-"+current_user+"A-TXTbluestarALF-CV"+intTostring(i)+".txt";
-						string txtBlueStarpath_alf_B = folder_current_prefix_len+current_prefix+"-"+current_user+"B-TXTbluestarALF-CV"+intTostring(i)+".txt";
+						string txtBlueStarpath_alf_A = folder_current_prefix_len+current_prefix+"-"+current_user+"A-CV"+intTostring(i)+"-TXTbluestarALF.txt";
+						string txtBlueStarpath_alf_B = folder_current_prefix_len+current_prefix+"-"+current_user+"B-CV"+intTostring(i)+"-TXTbluestarALF.txt";
 						BLUESTAR_dfa_A->print_dfa_in_text_file(txtBlueStarpath_alf_A);
 						BLUESTAR_dfa_B->print_dfa_in_text_file(txtBlueStarpath_alf_B);
 						cout << "BLUSTAR DFA TXT path: "<<txtBlueStarpath_alf_A << endl;
@@ -2621,7 +2621,7 @@ void geoExp::run_inference_coldstart_similarity()
 
 					cout << endl << "Utenti "<<users[user]<<" , "<<current_user2<<endl;
 
-					// TODO
+
 					// Read positive and negative samples
 					gi::blueStar* bluestar_exe = new gi::blueStar(path_training_data_pair.c_str(), alpha_value, delta_value);
 

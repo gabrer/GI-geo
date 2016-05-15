@@ -1,0 +1,68 @@
+32
+$ 0 1 2 3 4 5 6 7 8 9 b c d e f g h j k m n p q r s t u v w x y z 
++ 8 t
++ 2 t x
++ 1 w t
++ 136 x
++ 1 x t
++ 1 x w t
+- 2 1
+- 1 1 0 2 3 6 d e s t w x
+- 4 2
+- 1 2 0 1
+- 1 6
+- 13 7
+- 8 e
+- 2 e s
+- 4 h
+- 1 h k
+- 1 j n
+- 14 k
+- 1 k m k s
+- 26 m
+- 1 m k
+- 1 m x
+- 1 p
+- 24 q
+- 1 q m q
+- 1 q n
+- 1 q n j
+- 2 q w
+- 1 q x
+- 66 s
+- 1 s 7
+- 1 s e
+- 1 s e s e
+- 1 s e s e s e
+- 1 s t
+- 1 s t w
+- 1 t s
+- 1 t s t
+- 4 t w
+- 6 t w x
+- 75 w
+- 1 w q n
+- 1 w t w
+- 21 w x
+- 2 x e
+- 1 x k h
+- 1 x m
+- 1 x q
+- 1 x q w
+- 3 x s
+- 30 x w
+- 1 x w q
+- 2 x w q m
+- 1 x w q w t m
+- 2 x w t s
+- 2 x w t s e
+- 1 x w t s k
+- 1 x w t w x
+- 6 x w x
+- 1 x w x z
+- 3 x z
+- 1 x z x
+- 1 y
+- 1 y x
+- 17 z
+- 2 z x
