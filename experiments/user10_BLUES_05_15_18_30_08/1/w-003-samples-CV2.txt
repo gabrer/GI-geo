@@ -1,0 +1,73 @@
+32
+$ 0 1 2 3 4 5 6 7 8 9 b c d e f g h j k m n p q r s t u v w x y z 
++ 8 t
++ 1 t w
++ 1 t x
++ 1 w t
++ 138 x
+- 2 1
+- 2 2
+- 1 6
+- 12 7
+- 1 7 t x
+- 8 e
+- 2 e s
+- 2 h
+- 1 h k
+- 1 j
+- 1 j n
+- 18 k
+- 1 k m k s
+- 1 k s t w
+- 2 k x
+- 21 m
+- 1 m k
+- 1 m x
+- 1 n
+- 1 n q x
+- 31 q
+- 2 q n p
+- 1 q w x
+- 2 q x
+- 1 r
+- 71 s
+- 1 s 7
+- 3 s e
+- 1 s e s e
+- 2 s t
+- 1 s x
+- 1 t s
+- 1 t s k
+- 1 t s t
+- 1 t s t s t
+- 1 t w s t w
+- 10 t w x
+- 61 w
+- 1 w q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x q x w q w q w
+- 1 w t s
+- 1 w t w
+- 28 w x
+- 1 x e
+- 1 x q
+- 1 x q n q
+- 1 x r
+- 1 x s
+- 1 x s x
+- 6 x t
+- 34 x w
+- 3 x w q
+- 2 x w q m
+- 6 x w t
+- 1 x w t s
+- 1 x w t w x
+- 10 x w x
+- 1 x w x w x
+- 1 x w x z
+- 1 x w y
+- 1 x y
+- 2 x z
+- 1 x z x
+- 2 y
+- 21 z
+- 4 z x
+- 1 z y x
