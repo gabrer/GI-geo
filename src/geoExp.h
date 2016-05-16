@@ -73,10 +73,11 @@ private:
 
 
 	// Users similarity
-	static const int n_compared_users = 7;
+	static const int n_compared_users = 10;
 
+	const int int_comp_user[n_compared_users] = {3, 4, 17, 30,  41, 62,  68,  128,  153, 163}; 		// Added: 41, 62, 128
+	// const int int_comp_user[n_compared_users] = {3, 4, 17, 30, 68, 153, 163};   --> Articolo cinesi
 	//const int int_comp_user[n_compared_users] = {4, 17, 25, 41, 62, 85, 128, 140, 144, 153};
-	const int int_comp_user[n_compared_users] = {3, 4, 17, 30, 68, 153, 163};
 
 	map<string, bool> comp_user;									/*!< Map with users id in string-format; assosiated bool is used into inference algorithm */
 
