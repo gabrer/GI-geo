@@ -715,6 +715,10 @@ void geoExp::run_inference_splitting_users()
 				cout << "***************************************************" << endl;
 				limit_prefixes_number++;
 
+				if( ! ( (!(*it).compare("w")) || !((*it).compare("wx")) || !((*it).compare("wx4")) || !((*it).compare("wx4g")) ) )
+					continue;
+
+				cout << "ENTRATO CON PREFISSO "<<*it << endl;
 
 				string*	test_set = NULL;
 				geodb*	mydb = NULL;
