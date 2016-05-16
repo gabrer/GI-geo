@@ -1144,15 +1144,26 @@ void geoExp::write_minitraj_from_db_like_samples_SET_A_SET_B(string user,string 
 	{
 		for(int i=0; i< cross_val_run; ++i)
 		{
-			for(auto it=positive_samples->begin(); it != positive_samples->end(); ++it)
-			{
-				if(positive_setb[i].size() < dim_positive_setb)
-					positive_setb[i].push_back(*it);
-				else
-					positive_seta[i].push_back(*it);
-			}
+			random_shuffle(positive_samples->begin(), positive_samples->end());
 
-			rotate( positive_samples->begin(), positive_samples->begin() + positive_setb[i].size(),  positive_samples->end());
+			int stop_index = positive_samples->size()/2;
+
+			for(auto w=0; w<stop_index; ++w)
+				positive_setb[i].push_back(positive_samples->at(w));
+
+
+				//positive_seta[i].push_back(*it);
+
+
+//			for(auto it=positive_samples->begin(); it != positive_samples->end(); ++it)
+//			{
+//				if(positive_setb[i].size() < dim_positive_setb)
+//					positive_setb[i].push_back(*it);
+//				else
+//					positive_seta[i].push_back(*it);
+//			}
+
+//			 rotate( positive_samples->begin(), positive_samples->begin() + positive_setb[i].size(),  positive_samples->end());
 
 			// TODO: togliere eventuali duplicati
 
@@ -1198,12 +1209,12 @@ void geoExp::write_minitraj_from_db_like_samples_SET_A_SET_B(string user,string 
 	{
 		// Scrivo il SET A
 		string path_training_data = path_samples+ "-"+user+"-samples-CV"+intTostring(i)+".txt";
-		write_minitrajectories_as_training_set(&positive_seta[i] , negative_samples, path_training_data.c_str());
+		write_minitrajectories_as_training_set(&positive_setb[i] , negative_samples, path_training_data.c_str());
 
 
-		// Scrivo il SET B
-		string path_test_data = path_samples+ "-"+user+"-test_samples-CV"+intTostring(i)+".txt";
-		write_minitrajectories_as_training_set(&positive_setb[i] , negative_samples, path_test_data.c_str());
+//		// Scrivo il SET B
+//		string path_test_data = path_samples+ "-"+user+"-test_samples-CV"+intTostring(i)+".txt";
+//		write_minitrajectories_as_training_set(&positive_setb[i] , negative_samples, path_test_data.c_str());
 
 		// Scrivo su file il TEST SET
 //		string path_test_data = path_samples + "-"+user+"-test_samples-CV"+intTostring(i)+".txt";
@@ -2851,9 +2862,7 @@ void geoExp::write_minitraj_from_db_like_samples_0_25_TRAINTEST_TESTSET(string u
 			// Paired users training set: union of 1/4users and entire paired user
 			for(int k=0; k<n_compared_users_coldstart; ++k)
 				positive_samples_paired_users[k][i]->insert( positive_samples_paired_users[k][i]->end(), positive_training_set[i].begin(), positive_training_set[i].end() );
-
 		}
-
 	}
 
 

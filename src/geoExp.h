@@ -93,15 +93,15 @@ private:
 	// Structure for statistics
 	struct mystat {
 		string 		prefix = "";																// Identify the inference process
-		int 			num_states_edsm 	  						= -1;
-		int*			num_states_bluestar;
+		int 		num_states_edsm 	  						= -1;
+		int*		num_states_bluestar;
 		double 		percentage_positive_edsm				= -1;				// Cicla le LUNGHEZZE dei prefissi (for statistical purpose... see below)
 		double* 	percentage_positive_bluestar;
 		double* 	errore_rate_bluestar;												// Error rate on the training dataset
 		int			num_actual_merges_edsm 			= -1;
 		int			num_heuristic_evaluations_edsm 	= -1;
-		int*			num_actual_merges_bluestar;
-		int*			num_heuristic_evaluations_bluestar ;
+		int*		num_actual_merges_bluestar;
+		int*		num_heuristic_evaluations_bluestar ;
 	};
 
 
