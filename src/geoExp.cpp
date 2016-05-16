@@ -774,7 +774,7 @@ void geoExp::run_inference_splitting_users()
 						gi::dfa* BLUESTAR_dfa_B;
 
 						path_training_data	= path_samples + "-" + current_user + "-samples-CV"+intTostring(i)+".txt";
-						path_test_data 			= path_samples + "-" + current_user + "-test_samples-CV"+intTostring(i)+".txt";
+						path_test_data 		= path_samples + "-" + current_user + "-test_samples-CV"+intTostring(i)+".txt";  //NB: In realtà è di training qui!
 
 
 						// Read positive and negative samples
@@ -1033,8 +1033,8 @@ void geoExp::write_minitraj_from_db_like_samples_SET_A_SET_B(string user,string 
 
 	vector<string> positive_setb[cross_val_run];
 	vector<string> positive_seta[cross_val_run];
-	vector<string> negative_setb[cross_val_run];
-	vector<string> negative_seta[cross_val_run];
+	//vector<string> negative_setb[cross_val_run];
+	//vector<string> negative_seta[cross_val_run];
 
 
 	// Open connection
@@ -1093,23 +1093,24 @@ void geoExp::write_minitraj_from_db_like_samples_SET_A_SET_B(string user,string 
 
 	// Randomize order of samples
 	random_shuffle(positive_samples->begin(), positive_samples->end());
-	random_shuffle(negative_samples->begin(), negative_samples->end());
+//	random_shuffle(negative_samples->begin(), negative_samples->end());
 
 
 	// Calcolo la dimensione del training set e del test set
 	int dim_positive_seta = ceil( (double) (training_proportion * dim_positive) / (double) 100);
 	int dim_positive_setb  = dim_positive - dim_positive_seta;
 
-	int dim_negative_seta = ceil( (double) (training_proportion * dim_negative) / (double) 100);
-	int dim_negative_setb  = dim_negative - dim_negative_seta;
+//	int dim_negative_seta = ceil( (double) (training_proportion * dim_negative) / (double) 100);
+//	int dim_negative_setb  = dim_negative - dim_negative_seta;
 
 	if(dim_positive == 1){
 		dim_positive_seta = 1;
 		dim_positive_setb = 0;
 	}
 
-	cout << "Totale positive: "<<dim_positive<<". "<<"SET A: "<<dim_positive_seta<<" - SET B: "<<dim_positive_setb<<endl;
-	cout << "Totale negative: "<<dim_negative<<". "<<"SET A: "<<dim_negative_seta<<" - SET B: "<<dim_negative_setb<<endl;
+	cout << "Totale positive: "<<dim_positive<<". "<<"Totali negative: "<<dim_negative << endl;
+	cout << "SET A: "<<dim_positive_seta<<" - SET B: "<< dim_positive_setb <<endl;
+//	cout << "Totale negative: "<<dim_negative<<". "<<"SET A: "<<dim_negative_seta<<" - SET B: "<<dim_negative_setb<<endl;
 
 
 	if(dim_positive_seta < MIN_NUMBER_TEST_SAMPLES)
@@ -1161,28 +1162,28 @@ void geoExp::write_minitraj_from_db_like_samples_SET_A_SET_B(string user,string 
 	}
 
 
-	////////////////////////////////////////////////////////////////////////
-	// Creo il set B per le positive e elimino dal set A
-	if(dim_negative_setb != 0)
-	{
-		for(int i=0; i< cross_val_run; ++i)
-		{
-			for(auto it=negative_samples->begin(); it != negative_samples->end(); ++it)
-			{
-				if(negative_setb[i].size() < dim_negative_setb)
-					negative_setb[i].push_back(*it);
-				else
-					negative_seta[i].push_back(*it);
-			}
-
-			rotate( negative_samples->begin(), negative_samples->begin() + negative_setb[i].size(),  negative_samples->end());
-
-			// TODO: togliere eventuali duplicati
-
-
-			cout << "END: Negative SET A: "<<negative_seta[i].size()<<" - Negative SET B: "<< negative_setb[i].size() <<endl;
-		}
-	}
+//	////////////////////////////////////////////////////////////////////////
+//	// Creo il set B per le positive e elimino dal set A
+//	if(dim_negative_setb != 0)
+//	{
+//		for(int i=0; i< cross_val_run; ++i)
+//		{
+//			for(auto it=negative_samples->begin(); it != negative_samples->end(); ++it)
+//			{
+//				if(negative_setb[i].size() < dim_negative_setb)
+//					negative_setb[i].push_back(*it);
+//				else
+//					negative_seta[i].push_back(*it);
+//			}
+//
+//			rotate( negative_samples->begin(), negative_samples->begin() + negative_setb[i].size(),  negative_samples->end());
+//
+//			// TODO: togliere eventuali duplicati
+//
+//
+//			cout << "END: Negative SET A: "<<negative_seta[i].size()<<" - Negative SET B: "<< negative_setb[i].size() <<endl;
+//		}
+//	}
 
 
 
@@ -1195,14 +1196,14 @@ void geoExp::write_minitraj_from_db_like_samples_SET_A_SET_B(string user,string 
 
 	for(int i=0; i<cross_val_run; ++i)
 	{
-		// Scrivo su file il TRAINIG SET
+		// Scrivo il SET A
 		string path_training_data = path_samples+ "-"+user+"-samples-CV"+intTostring(i)+".txt";
-		write_minitrajectories_as_training_set(&positive_seta[i] , &(negative_seta[i]), path_training_data.c_str());
+		write_minitrajectories_as_training_set(&positive_seta[i] , negative_samples, path_training_data.c_str());
 
 
 		// Scrivo il SET B
 		string path_test_data = path_samples+ "-"+user+"-test_samples-CV"+intTostring(i)+".txt";
-		write_minitrajectories_as_training_set(&positive_setb[i] , &(negative_setb[i]), path_test_data.c_str());
+		write_minitrajectories_as_training_set(&positive_setb[i] , negative_samples, path_test_data.c_str());
 
 		// Scrivo su file il TEST SET
 //		string path_test_data = path_samples + "-"+user+"-test_samples-CV"+intTostring(i)+".txt";
