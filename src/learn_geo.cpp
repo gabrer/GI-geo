@@ -80,16 +80,17 @@ int main(int argc, char* argv[]){
 	cout << "///////////////////////////////////////////////////////////////////////////////////////////////"<<endl;
 
 	int 	min_l_prefix = 1;
-	int		max_l_prefix = 7;				// Ex: se metti 2, il prefisso è lungo 1 mentre la cella è identificata da stringa l=2:avremo quindi prefix: "w" e cella "wy", "w3", etc
+	int		max_l_prefix = 6;				// Ex: se metti 2, il prefisso è lungo 1 mentre la cella è identificata da stringa l=2:avremo quindi prefix: "w" e cella "wy", "w3", etc
 	bool 	no_repetitions_inside_strings = true;
-	int		train_prop = 50;
+	int		train_prop = 60;
+	int		num_random_sets = 10;
 	double 	cold_start_prop = 0.25;
 	bool 	edsm = false;
 	bool 	bluestar = true;
 	double 	alpha = 0.01;
 	double 	delta = 1000.0;
 
-	geoExp* myexp = new geoExp(db_path, user, min_l_prefix, max_l_prefix, no_repetitions_inside_strings, train_prop, cold_start_prop, edsm, bluestar, alpha, delta);
+	geoExp* myexp = new geoExp(db_path, user, min_l_prefix, max_l_prefix, no_repetitions_inside_strings, train_prop, cold_start_prop, num_random_sets, edsm, bluestar, alpha, delta);
 
 	myexp->run_inference_splitting_users();
 	//myexp->run_inference_similarity();
@@ -110,7 +111,7 @@ int main(int argc, char* argv[]){
 	cout << "///////////////////////////////////////////////////////////////////////////////////////////////"<<endl;
 	cout << "///////////////////////////////////////////////////////////////////////////////////////////////"<<endl;
 	cout << "///////////////////////////////////////////////////////////////////////////////////////////////"<<endl;
-	geoExp* myexp2 = new geoExp(db_path, user, min_l_prefix, max_l_prefix, true, 80, cold_start_prop, false, true, 0.05, 1000.0);
+	geoExp* myexp2 = new geoExp(db_path, user, min_l_prefix, max_l_prefix, true, 80, cold_start_prop, num_random_sets, false, true, 0.05, 1000.0);
 
 	myexp2->run_inference_accuracy();
 
@@ -126,7 +127,7 @@ int main(int argc, char* argv[]){
 	cout << "///////////////////////////////////////////////////////////////////////////////////////////////"<<endl;
 	cout << "///////////////////////////////////////////////////////////////////////////////////////////////"<<endl;
 
-	geoExp* myexp3 = new geoExp(db_path, user, min_l_prefix, max_l_prefix, true, 80, cold_start_prop,  false, true, 0.025, 1000.0);
+	geoExp* myexp3 = new geoExp(db_path, user, min_l_prefix, max_l_prefix, true, 80, cold_start_prop, num_random_sets,  false, true, 0.025, 1000.0);
 
 	myexp3->run_inference_accuracy();
 

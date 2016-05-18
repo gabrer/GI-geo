@@ -51,6 +51,7 @@ private:
 	int 		max_prefixes_length;										/*!< Length of geohash strings */
 
 	int 		cross_val_run = -1;											/*!< Number of run for cross-validation */
+	int 		num_of_random_sets = -1;										/*!< Num of random sets when CrosVal is not used! */
 
 	bool 		edsm;
 
@@ -111,17 +112,20 @@ private:
 
 	string 		create_folder(const string  base_path, const string new_folder, bool current_time);
 
-	int 			write_minitraj_from_db_like_samples_TRAINTEST_TESTSET(string user,string prefix, string path_samples);
+	vector<string> 	get_userIDs_as_strings();
 
-	void 			write_minitraj_from_db_like_samples_SET_A_SET_B(string user,string prefix, string path_samples);
+	int 		write_minitraj_from_db_like_samples_TRAINTEST_TESTSET(string user,string prefix, string path_samples);
+
+	void 		write_minitraj_from_db_like_samples_RANDOM_REDUCED_SAMPLE(string user,string prefix, string path_samples);
 
 	void 		write_minitrajectories_as_training_set(vector<string>* p_samples, vector<string>* n_samples, const char * file_path);
 
 	void 		write_minitrajectories_as_test_set(vector<string>* test_samples, const char * file_path);
 
-	string* 		read_testsamples_leaving_geohash_encoding(const char * /*path*/ path_samples, int &dim_positive, int* &wp);
 
-	double 	make_generalization_test(gi::dfa* finaldfa, const char * file_path/*, int dim_test*/);
+	string* 	read_testsamples_leaving_geohash_encoding(const char * /*path*/ path_samples, int &dim_positive, int* &wp);
+
+	double 		make_generalization_test(gi::dfa* finaldfa, const char * file_path/*, int dim_test*/);
 
 	string		add_space_between_characters_delete_repetitions(string old_string);
 
@@ -178,7 +182,7 @@ public:
 	 * @param path It's the path where find positive and negative samples
 	 */
 	geoExp(string db_path, int user, int min_prefixes_length, int max_prefixes_length, bool repetitions, int train_proportion, double cold_start_proportion,\
-					bool alg_edsm, bool alg_blues, double alpha, double delta);
+			 int num_radom_sets, bool alg_edsm, bool alg_blues, double alpha, double delta);
 
 
 

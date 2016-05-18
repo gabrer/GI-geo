@@ -1,0 +1,577 @@
+utente: 10
+DB path is: /home/gnds/Desktop/geolife.db
+User: 10
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+Esperimento 0.01
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+----> Number of run for CROSS VALIDATION: 10
+"Experiments" folder checked
+Current experiment directory is: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/
+Selected algorithms are: 
+BlueStar
+Database path: /home/gnds/Desktop/geolife.db
+Lunghezza minima dei prefissi: 1
+
+
+
+***************************************************
+***************************************************
+---------- PREFISSI DI LUNGHEZZA 1, utente 003 -----------
+***************************************************
+***************************************************
+
+1 prefixes of length 1, limit to ALL
+
+
+***************************************************
+------> Current Prefix: w - Utente 003 <--------
+***************************************************
+ENTRATO CON PREFISSO w
+ - Scrivo su file i samples -
+Prefisso: w
+Numero sample positivi: 298
+Numero sample negativi: 12901
+Totale positive: 298. Totali negative: 12901
+SET DOWNSAMPLED: 179
+END: Positive DOWNSAMPLED SET: 149
+END: Positive DOWNSAMPLED SET: 149
+END: Positive DOWNSAMPLED SET: 149
+END: Positive DOWNSAMPLED SET: 149
+END: Positive DOWNSAMPLED SET: 149
+END: Positive DOWNSAMPLED SET: 149
+END: Positive DOWNSAMPLED SET: 149
+END: Positive DOWNSAMPLED SET: 149
+END: Positive DOWNSAMPLED SET: 149
+END: Positive DOWNSAMPLED SET: 149
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 819
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 97 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 773
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 7 samples positivi e 93 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 814
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 96 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 804
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 5 samples positivi e 95 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 773
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 7 samples positivi e 93 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 803
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 96 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 815
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 96 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 808
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 5 samples positivi e 95 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 789
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 6 samples positivi e 94 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 789
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 6 samples positivi e 94 negativi
+
+********  BLUESTAR w-cv: 0 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003-samples-CV0.txt
+3 positivi
+97 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 149 e 819
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-DOTbluestarALF-CV0.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-CV0-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 1 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003-samples-CV1.txt
+7 positivi
+93 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 149 e 773
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-DOTbluestarALF-CV1.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-CV1-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 2 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003-samples-CV2.txt
+4 positivi
+96 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 149 e 814
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-DOTbluestarALF-CV2.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-CV2-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 3 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003-samples-CV3.txt
+5 positivi
+95 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 149 e 804
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-DOTbluestarALF-CV3.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-CV3-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 4 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003-samples-CV4.txt
+7 positivi
+93 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 149 e 773
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-DOTbluestarALF-CV4.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-CV4-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 5 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003-samples-CV5.txt
+4 positivi
+96 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 149 e 803
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-DOTbluestarALF-CV5.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-CV5-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 6 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003-samples-CV6.txt
+4 positivi
+96 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 149 e 815
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-DOTbluestarALF-CV6.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-CV6-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 7 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003-samples-CV7.txt
+5 positivi
+95 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 149 e 808
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-DOTbluestarALF-CV7.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-CV7-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 8 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003-samples-CV8.txt
+6 positivi
+94 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 149 e 789
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-DOTbluestarALF-CV8.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-CV8-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 9 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003-samples-CV9.txt
+6 positivi
+94 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 149 e 789
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-DOTbluestarALF-CV9.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-003A-CV9-TXTbluestarALF.txt
+
+
+
+***************************************************
+***************************************************
+---------- PREFISSI DI LUNGHEZZA 2, utente 003 -----------
+***************************************************
+***************************************************
+
+3 prefixes of length 2, limit to ALL
+
+
+***************************************************
+------> Current Prefix: wt - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx - Utente 003 <--------
+***************************************************
+ENTRATO CON PREFISSO wx
+ - Scrivo su file i samples -
+Prefisso: wx
+Numero sample positivi: 277
+Numero sample negativi: 11995
+Totale positive: 277. Totali negative: 11995
+SET DOWNSAMPLED: 167
+END: Positive DOWNSAMPLED SET: 138
+END: Positive DOWNSAMPLED SET: 138
+END: Positive DOWNSAMPLED SET: 138
+END: Positive DOWNSAMPLED SET: 138
+END: Positive DOWNSAMPLED SET: 138
+END: Positive DOWNSAMPLED SET: 138
+END: Positive DOWNSAMPLED SET: 138
+END: Positive DOWNSAMPLED SET: 138
+END: Positive DOWNSAMPLED SET: 138
+END: Positive DOWNSAMPLED SET: 138
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 333
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 82 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 245
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 5 samples positivi e 80 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 293
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 81 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 333
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 82 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 245
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 5 samples positivi e 80 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 285
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 81 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 285
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 81 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 293
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 81 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 285
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 81 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 333
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 82 negativi
+
+********  BLUESTAR wx-cv: 0 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003-samples-CV0.txt
+3 positivi
+82 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 138 e 333
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-DOTbluestarALF-CV0.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-CV0-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 1 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003-samples-CV1.txt
+5 positivi
+80 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 138 e 245
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-DOTbluestarALF-CV1.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-CV1-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 2 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003-samples-CV2.txt
+4 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 138 e 293
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-DOTbluestarALF-CV2.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-CV2-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 3 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003-samples-CV3.txt
+3 positivi
+82 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 138 e 333
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-DOTbluestarALF-CV3.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-CV3-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 4 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003-samples-CV4.txt
+5 positivi
+80 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 138 e 245
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-DOTbluestarALF-CV4.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-CV4-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 5 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003-samples-CV5.txt
+4 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 138 e 285
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-DOTbluestarALF-CV5.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-CV5-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 6 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003-samples-CV6.txt
+4 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 138 e 285
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-DOTbluestarALF-CV6.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-CV6-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 7 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003-samples-CV7.txt
+4 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 138 e 293
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-DOTbluestarALF-CV7.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-CV7-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 8 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003-samples-CV8.txt
+4 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 138 e 285
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-DOTbluestarALF-CV8.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-CV8-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 9 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003-samples-CV9.txt
+3 positivi
+82 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 138 e 333
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-DOTbluestarALF-CV9.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-003A-CV9-TXTbluestarALF.txt
+
+
+
+***************************************************
+***************************************************
+---------- PREFISSI DI LUNGHEZZA 3, utente 003 -----------
+***************************************************
+***************************************************
+
+14 prefixes of length 3, limit to ALL
+
+
+***************************************************
+------> Current Prefix: wtg - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wts - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtt - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtu - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtv - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwd - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwe - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwf - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4 - Utente 003 <--------
+***************************************************
+ENTRATO CON PREFISSO wx4
+ - Scrivo su file i samples -
+Prefisso: wx4
+Numero sample positivi: 278
+Numero sample negativi: 14023
+Totale positive: 278. Totali negative: 14023
+SET DOWNSAMPLED: 167
+END: Positive DOWNSAMPLED SET: 139
+END: Positive DOWNSAMPLED SET: 139
+END: Positive DOWNSAMPLED SET: 139
+END: Positive DOWNSAMPLED SET: 139
+END: Positive DOWNSAMPLED SET: 139
+END: Positive DOWNSAMPLED SET: 139
+END: Positive DOWNSAMPLED SET: 139
+END: Positive DOWNSAMPLED SET: 139
+END: Positive DOWNSAMPLED SET: 139
+END: Positive DOWNSAMPLED SET: 139
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 4422
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 770 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 7622
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 19 samples positivi e 775 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6306
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 770 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6415
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 25 samples positivi e 769 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6427
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 21 samples positivi e 772 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 3164
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 27 samples positivi e 768 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6352
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 24 samples positivi e 772 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 3352
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 773 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6491
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 24 samples positivi e 771 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6442
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 22 samples positivi e 772 negativi
+
+********  BLUESTAR wx4-cv: 0 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003-samples-CV0.txt
+23 positivi
+770 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 139 e 4422
+ START BlueStar inference process...

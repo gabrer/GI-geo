@@ -23,13 +23,15 @@
 
 #define MAX_BUFFER_SIZE 				256
 
+#define USERS_IN_DB						180
 
-#define PREFIX_NUMBER_LIMIT 		1000000				// Eventuale limite nel numero di prefissi analizzati per utente
+
+#define PREFIX_NUMBER_LIMIT 			1000000				// Eventuale limite nel numero di prefissi analizzati per utente
 
 #define MIN_NUMBER_POSITIVE_SAMPLES  	25
-#define MIN_NUMBER_TEST_SAMPLES 			5
+#define MIN_NUMBER_TEST_SAMPLES 		5
 
-#define K_FOLD_CROSS_VAL 							5
+#define K_FOLD_CROSS_VAL 				5
 
 //#include <ctime>
 #include <chrono>
@@ -41,7 +43,7 @@ using namespace std;
 
 // An experiment is charatterizated by a single user
 geoExp::geoExp(string db_path, int user, int min_prefixes_length, int max_prefixes_length, bool repetitions, int train_proportion, double cold_start_proportion, \
-								bool alg_edsm, bool alg_blues, double alpha, double delta)
+								int num_random_set, bool alg_edsm, bool alg_blues, double alpha, double delta)
 {
 	this->db_path = db_path;
 	this->user = user;
@@ -65,10 +67,11 @@ geoExp::geoExp(string db_path, int user, int min_prefixes_length, int max_prefix
 
 	this->test_proportion = 100 - train_proportion;
 
+	this->num_of_random_sets = num_random_set;
+
 
 	int tmp_min_n_positive_samples = MIN_NUMBER_POSITIVE_SAMPLES;
 	this->cross_val_run = (double) (test_proportion * tmp_min_n_positive_samples) / (double) 100.0;
-	if(cross_val_run > 10) cross_val_run = 10;
 	cout << "----> Number of run for CROSS VALIDATION: "<<cross_val_run << endl;
 
 
@@ -196,8 +199,8 @@ void geoExp::run_inference_accuracy()
 
 
 	// Utenti analizzati
-	string users[160];
-	for(int i=0; i<160; ++i){
+	string users[USERS_IN_DB];
+	for(int i=0; i<USERS_IN_DB; ++i){
 		if(i <10)
 			users[i] = "00"+intTostring(i);
 		else if(i>=10 && i<100)
@@ -627,7 +630,6 @@ double geoExp::make_generalization_test(gi::dfa* finaldfa, const char * file_pat
 void geoExp::run_inference_splitting_users()
 {
 	cout << "Selected algorithms are: " << endl;
-
 	if(blueStar)
 		cout << "BlueStar"<<endl;
 
@@ -635,16 +637,8 @@ void geoExp::run_inference_splitting_users()
 	cout << "Database path: "<<db_path<<endl;
 
 
-	// Utenti analizzati
-	string users[160];
-	for(int i=0; i<160; ++i){
-		if(i <10)
-			users[i] = "00"+intTostring(i);
-		else if(i>=10 && i<100)
-			users[i] = "0"+intTostring(i);
-		else if(i>=100)
-			users[i] = intTostring(i);
-	}
+	// UserIDs as string
+	vector<string> users = get_userIDs_as_strings();
 
 
 	cout << "Lunghezza minima dei prefissi: " << min_prefixes_length << endl;
@@ -749,7 +743,7 @@ void geoExp::run_inference_splitting_users()
 				try
 				{
 					// Scrivi le ministraiettorie su file di testo
-					write_minitraj_from_db_like_samples_SET_A_SET_B(current_user, current_prefix, path_samples);
+					write_minitraj_from_db_like_samples_RANDOM_REDUCED_SAMPLE(current_user, current_prefix, path_samples);
 				}
 				catch (const char* msg ){
 					cout << msg << endl;
@@ -1026,19 +1020,13 @@ int geoExp::write_minitraj_from_db_like_samples_TRAINTEST_TESTSET(string user,st
 
 
 
-// Scrive su file il training set e setta nel vettore "test_set" le stringhe di test
-// Ritorna la dimensione del test_set, adoperato per poter fare esternamente i test
-// Scrito solo il training perché è sufficiene all'inferenza
-// (se vuoi puoi scrivere anche quelle di test nel file, basta copiare e adattare l'ultima riga della funzione)
-void geoExp::write_minitraj_from_db_like_samples_SET_A_SET_B(string user,string prefix, string path_samples)
+// Scrive su file un sottocampionamento dell'insieme di training iniziale
+void geoExp::write_minitraj_from_db_like_samples_RANDOM_REDUCED_SAMPLE(string user,string prefix, string path_samples)
 {
 	//int  *wp, *wn;
 	//vector<string>::iterator it;
 
-	vector<string> positive_setb[cross_val_run];
-	vector<string> positive_seta[cross_val_run];
-	//vector<string> negative_setb[cross_val_run];
-	//vector<string> negative_seta[cross_val_run];
+	vector<string> positive_downsampled_set[num_of_random_sets];
 
 
 	// Open connection
@@ -1061,9 +1049,8 @@ void geoExp::write_minitraj_from_db_like_samples_SET_A_SET_B(string user,string 
 	if(dim_positive < MIN_NUMBER_POSITIVE_SAMPLES || dim_negative < MIN_NUMBER_POSITIVE_SAMPLES)
 	{
 		// Free memory
-		for(int i=0; i< cross_val_run; ++i){
-			positive_seta[i].clear();
-			positive_setb[i].clear();
+		for(int i=0; i< num_of_random_sets; ++i){
+			positive_downsampled_set[i].clear();
 		}
 
 		vector<string>().swap(*positive_samples);
@@ -1088,7 +1075,7 @@ void geoExp::write_minitraj_from_db_like_samples_SET_A_SET_B(string user,string 
 
 
 	// ****************************************
-	// Divido in SET A e SET B
+	//	EFFETTUO IL DOWNSAMPLING
 	// ****************************************
 
 	// Inizzializzo srand
@@ -1097,34 +1084,28 @@ void geoExp::write_minitraj_from_db_like_samples_SET_A_SET_B(string user,string 
 
 	// Randomize order of samples
 	random_shuffle(positive_samples->begin(), positive_samples->end());
-//	random_shuffle(negative_samples->begin(), negative_samples->end());
 
 
 	// Calcolo la dimensione del training set e del test set
-	int dim_positive_seta = ceil( (double) (training_proportion * dim_positive) / (double) 100);
-	int dim_positive_setb  = dim_positive - dim_positive_seta;
+	int dim_positive_donwsampled = ceil( (double) (training_proportion * dim_positive) / (double) 100);
+	int dim_positive_setb  = dim_positive - dim_positive_donwsampled;
 
-//	int dim_negative_seta = ceil( (double) (training_proportion * dim_negative) / (double) 100);
-//	int dim_negative_setb  = dim_negative - dim_negative_seta;
 
 	if(dim_positive == 1){
-		dim_positive_seta = 1;
+		dim_positive_donwsampled = 1;
 		dim_positive_setb = 0;
 	}
 
 	cout << "Totale positive: "<<dim_positive<<". "<<"Totali negative: "<<dim_negative << endl;
-	cout << "SET A: "<<dim_positive_seta<<" - SET B: "<< dim_positive_setb <<endl;
-//	cout << "Totale negative: "<<dim_negative<<". "<<"SET A: "<<dim_negative_seta<<" - SET B: "<<dim_negative_setb<<endl;
+	cout << "SET DOWNSAMPLED: "<<dim_positive_donwsampled <<endl;
 
 
-	if(dim_positive_seta < MIN_NUMBER_TEST_SAMPLES)
+	if(dim_positive_donwsampled < MIN_NUMBER_TEST_SAMPLES)
 	{
 		// Free memory
-		for(int i=0; i< cross_val_run; ++i){
-			vector<string>().swap(positive_seta[i]);
-			vector<string>().swap(positive_setb[i]);
-			positive_seta[i].clear();
-			positive_setb[i].clear();
+		for(int i=0; i< num_of_random_sets; ++i){
+			vector<string>().swap(positive_downsampled_set[i]);
+			positive_downsampled_set[i].clear();
 		}
 
 		vector<string>().swap(*positive_samples);
@@ -1143,62 +1124,22 @@ void geoExp::write_minitraj_from_db_like_samples_SET_A_SET_B(string user,string 
 
 
 	////////////////////////////////////////////////////////////////////////
-	// Creo il set B per le positive e elimino dal set A
+	// DOWNSAMPLING
 	if(dim_positive_setb != 0)
 	{
-		for(int i=0; i< cross_val_run; ++i)
+		for(int i=0; i< num_of_random_sets; ++i)
 		{
 			random_shuffle(positive_samples->begin(), positive_samples->end());
 
 			int stop_index = positive_samples->size()/2;
 
 			for(auto w=0; w<stop_index; ++w)
-				positive_setb[i].push_back(positive_samples->at(w));
+				positive_downsampled_set[i].push_back(positive_samples->at(w));
 
 
-				//positive_seta[i].push_back(*it);
-
-
-//			for(auto it=positive_samples->begin(); it != positive_samples->end(); ++it)
-//			{
-//				if(positive_setb[i].size() < dim_positive_setb)
-//					positive_setb[i].push_back(*it);
-//				else
-//					positive_seta[i].push_back(*it);
-//			}
-
-//			 rotate( positive_samples->begin(), positive_samples->begin() + positive_setb[i].size(),  positive_samples->end());
-
-			// TODO: togliere eventuali duplicati
-
-
-			cout << "END: Positive SET A: "<<positive_seta[i].size()<<" - Positive SET B: "<< positive_setb[i].size() <<endl;
+			cout << "END: Positive DOWNSAMPLED SET: " << positive_downsampled_set[i].size() <<endl;
 		}
 	}
-
-
-//	////////////////////////////////////////////////////////////////////////
-//	// Creo il set B per le positive e elimino dal set A
-//	if(dim_negative_setb != 0)
-//	{
-//		for(int i=0; i< cross_val_run; ++i)
-//		{
-//			for(auto it=negative_samples->begin(); it != negative_samples->end(); ++it)
-//			{
-//				if(negative_setb[i].size() < dim_negative_setb)
-//					negative_setb[i].push_back(*it);
-//				else
-//					negative_seta[i].push_back(*it);
-//			}
-//
-//			rotate( negative_samples->begin(), negative_samples->begin() + negative_setb[i].size(),  negative_samples->end());
-//
-//			// TODO: togliere eventuali duplicati
-//
-//
-//			cout << "END: Negative SET A: "<<negative_seta[i].size()<<" - Negative SET B: "<< negative_setb[i].size() <<endl;
-//		}
-//	}
 
 
 
@@ -1209,29 +1150,19 @@ void geoExp::write_minitraj_from_db_like_samples_SET_A_SET_B(string user,string 
 	// (è qui dentro che eventualmente tolgo le RIPETIZIONI interne ad una stringa)
 	cout << "Scritture su file dei samples..."<<endl;
 
-	for(int i=0; i<cross_val_run; ++i)
+	for(int i=0; i<num_of_random_sets; ++i)
 	{
-		// Scrivo il SET A
+		// Scrivo il SET DOWNSAMPLE
 		string path_training_data = path_samples+ "-"+user+"-samples-CV"+intTostring(i)+".txt";
-		write_minitrajectories_as_training_set(&positive_setb[i] , negative_samples, path_training_data.c_str());
+		write_minitrajectories_as_training_set(&positive_downsampled_set[i] , negative_samples, path_training_data.c_str());
 
-
-//		// Scrivo il SET B
-//		string path_test_data = path_samples+ "-"+user+"-test_samples-CV"+intTostring(i)+".txt";
-//		write_minitrajectories_as_training_set(&positive_setb[i] , negative_samples, path_test_data.c_str());
-
-		// Scrivo su file il TEST SET
-//		string path_test_data = path_samples + "-"+user+"-test_samples-CV"+intTostring(i)+".txt";
-//		write_minitrajectories_as_test_set(&positive_setb[i], path_test_data.c_str());
 	}
 
 
 	// Free memory
-	for(int i=0; i< cross_val_run; ++i){
-		vector<string>().swap(positive_seta[i]);
-		vector<string>().swap(positive_setb[i]);
-		positive_seta[i].clear();
-		positive_setb[i].clear();
+	for(int i=0; i< num_of_random_sets; ++i){
+		vector<string>().swap(positive_downsampled_set[i]);
+		positive_downsampled_set[i].clear();
 	}
 
 	vector<string>().swap(*positive_samples);
@@ -1843,8 +1774,8 @@ void geoExp::run_inference_similarity()
 
 
 	// Utenti analizzati
-	string users[180];
-	for(int i=0; i<180; ++i){
+	string users[USERS_IN_DB];
+	for(int i=0; i<USERS_IN_DB; ++i){
 		if(i <10)
 			users[i] = "00"+intTostring(i);
 		else if(i>=10 && i<100)
@@ -2410,8 +2341,8 @@ void geoExp::run_inference_coldstart_similarity()
 
 
 	// Utenti analizzati
-	string users[160];
-	for(int i=0; i<160; ++i){
+	string users[USERS_IN_DB];
+	for(int i=0; i<USERS_IN_DB; ++i){
 		if(i <10)
 			users[i] = "00"+intTostring(i);
 		else if(i>=10 && i<100)
@@ -3403,8 +3334,8 @@ void geoExp::print_experiments_folder()
 void geoExp::get_num_trajectories_for_pref_length(int prefixes_length)
 {
 	// Utenti analizzati
-	string users1[160];
-	for(int i=0; i<160; ++i){
+	string users1[USERS_IN_DB];
+	for(int i=0; i<USERS_IN_DB; ++i){
 		if(i <10)
 			users1[i] = "00"+intTostring(i);
 		else if(i>=10 && i<100)
@@ -3421,7 +3352,7 @@ void geoExp::get_num_trajectories_for_pref_length(int prefixes_length)
 
 
 	// IL numero viene automaticamente stampato dalla funzione del DB!
-	for(int i=0; i<160; ++i)
+	for(int i=0; i<USERS_IN_DB; ++i)
 		mydb->get_num_minitraj_for_user(users1[i], prefixes_length);
 
 
@@ -3430,3 +3361,22 @@ void geoExp::get_num_trajectories_for_pref_length(int prefixes_length)
 	delete mydb;
 
 }
+
+
+
+vector<string> geoExp::get_userIDs_as_strings()
+{
+	vector<string> users;
+	// Utenti analizzati
+	for(int i=0; i<USERS_IN_DB; ++i){
+		if(i <10)
+			users.push_back( "00"+intTostring(i));
+		else if(i>=10 && i<100)
+			users.push_back("0"+intTostring(i));
+		else if(i>=100)
+			users.push_back(intTostring(i));
+	}
+
+	return users;
+}
+
