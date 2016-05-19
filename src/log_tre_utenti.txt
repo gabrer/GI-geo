@@ -575,3 +575,5073 @@ PTA costruito
 APTA too big! I can't print it
 Totale tot_wn_w: 139 e 4422
  START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-DOTbluestarALF-CV0.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-CV0-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 1 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003-samples-CV1.txt
+19 positivi
+775 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 139 e 7622
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-DOTbluestarALF-CV1.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-CV1-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 2 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003-samples-CV2.txt
+23 positivi
+770 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 139 e 6306
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-DOTbluestarALF-CV2.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-CV2-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 3 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003-samples-CV3.txt
+25 positivi
+769 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 139 e 6415
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-DOTbluestarALF-CV3.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-CV3-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 4 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003-samples-CV4.txt
+21 positivi
+772 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 139 e 6427
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-DOTbluestarALF-CV4.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-CV4-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 5 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003-samples-CV5.txt
+27 positivi
+768 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 139 e 3164
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-DOTbluestarALF-CV5.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-CV5-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 6 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003-samples-CV6.txt
+24 positivi
+772 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 139 e 6352
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-DOTbluestarALF-CV6.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-CV6-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 7 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003-samples-CV7.txt
+23 positivi
+773 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 139 e 3352
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-DOTbluestarALF-CV7.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-CV7-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 8 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003-samples-CV8.txt
+24 positivi
+771 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 139 e 6491
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-DOTbluestarALF-CV8.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-CV8-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 9 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003-samples-CV9.txt
+22 positivi
+772 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 139 e 6442
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-DOTbluestarALF-CV9.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-003A-CV9-TXTbluestarALF.txt
+
+
+
+***************************************************
+------> Current Prefix: wx5 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+***************************************************
+---------- PREFISSI DI LUNGHEZZA 4, utente 003 -----------
+***************************************************
+***************************************************
+
+94 prefixes of length 4, limit to ALL
+
+
+***************************************************
+------> Current Prefix: wtg7 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgc - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgd - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtge - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgf - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgk - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgm - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgp - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgq - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsp - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsq - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsr - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsw - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsx - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsy - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsz - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttd - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtte - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttf - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttk - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttm - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtty - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttz - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtu0 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtu1 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtv8 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtv9 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvb - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvd - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtve - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvm - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvs - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvt - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw0 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw1 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw3 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw4 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw6 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtwn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww50 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww52 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww53 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww56 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww57 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5k - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5m - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5q - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5r - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww70 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww71 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww72 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww74 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww75 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww77 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7j - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7k - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7m - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7n - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7p - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdc - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdf - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdg - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwds - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdt - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdu - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdy - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdz - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwe0 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwe1 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwfb - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwfc - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg1 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg4 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg5 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgh - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgp - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgq - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgr - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx49 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4b - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4c - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4d - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4e - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4f - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4g - Utente 003 <--------
+***************************************************
+ENTRATO CON PREFISSO wx4g
+ - Scrivo su file i samples -
+Prefisso: wx4g
+Numero sample positivi: 63
+Numero sample negativi: 7414
+Totale positive: 63. Totali negative: 7414
+SET DOWNSAMPLED: 38
+END: Positive DOWNSAMPLED SET: 31
+END: Positive DOWNSAMPLED SET: 31
+END: Positive DOWNSAMPLED SET: 31
+END: Positive DOWNSAMPLED SET: 31
+END: Positive DOWNSAMPLED SET: 31
+END: Positive DOWNSAMPLED SET: 31
+END: Positive DOWNSAMPLED SET: 31
+END: Positive DOWNSAMPLED SET: 31
+END: Positive DOWNSAMPLED SET: 31
+END: Positive DOWNSAMPLED SET: 31
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6673
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 12 samples positivi e 1295 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6297
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 12 samples positivi e 1295 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6281
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 16 samples positivi e 1293 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6686
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 12 samples positivi e 1296 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6296
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 14 samples positivi e 1295 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 5992
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 17 samples positivi e 1293 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 5963
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 18 samples positivi e 1291 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6424
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 13 samples positivi e 1295 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6809
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 1296 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6271
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 15 samples positivi e 1292 negativi
+
+********  BLUESTAR wx4g-cv: 0 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003-samples-CV0.txt
+12 positivi
+1295 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 31 e 6673
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-DOTbluestarALF-CV0.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-CV0-TXTbluestarALF.txt
+
+********  BLUESTAR wx4g-cv: 1 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003-samples-CV1.txt
+12 positivi
+1295 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 31 e 6297
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-DOTbluestarALF-CV1.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-CV1-TXTbluestarALF.txt
+
+********  BLUESTAR wx4g-cv: 2 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003-samples-CV2.txt
+16 positivi
+1293 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 31 e 6281
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-DOTbluestarALF-CV2.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-CV2-TXTbluestarALF.txt
+
+********  BLUESTAR wx4g-cv: 3 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003-samples-CV3.txt
+12 positivi
+1296 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 31 e 6686
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-DOTbluestarALF-CV3.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-CV3-TXTbluestarALF.txt
+
+********  BLUESTAR wx4g-cv: 4 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003-samples-CV4.txt
+14 positivi
+1295 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 31 e 6296
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-DOTbluestarALF-CV4.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-CV4-TXTbluestarALF.txt
+
+********  BLUESTAR wx4g-cv: 5 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003-samples-CV5.txt
+17 positivi
+1293 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 31 e 5992
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-DOTbluestarALF-CV5.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-CV5-TXTbluestarALF.txt
+
+********  BLUESTAR wx4g-cv: 6 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003-samples-CV6.txt
+18 positivi
+1291 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 31 e 5963
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-DOTbluestarALF-CV6.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-CV6-TXTbluestarALF.txt
+
+********  BLUESTAR wx4g-cv: 7 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003-samples-CV7.txt
+13 positivi
+1295 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 31 e 6424
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-DOTbluestarALF-CV7.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-CV7-TXTbluestarALF.txt
+
+********  BLUESTAR wx4g-cv: 8 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003-samples-CV8.txt
+11 positivi
+1296 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 31 e 6809
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-DOTbluestarALF-CV8.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-CV8-TXTbluestarALF.txt
+
+********  BLUESTAR wx4g-cv: 9 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003-samples-CV9.txt
+15 positivi
+1292 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 31 e 6271
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-DOTbluestarALF-CV9.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-003A-CV9-TXTbluestarALF.txt
+
+
+
+***************************************************
+------> Current Prefix: wx4s - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4u - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx50 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx55 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+***************************************************
+---------- PREFISSI DI LUNGHEZZA 5, utente 003 -----------
+***************************************************
+***************************************************
+
+549 prefixes of length 5, limit to ALL
+
+
+***************************************************
+------> Current Prefix: wtg7q - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtg7r - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtg7w - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtg7y - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgcr - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgcw - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgcx - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgcy - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgdz - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtge2 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtge3 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtge5 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtge6 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtge7 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgeh - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgej - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgen - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgep - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgfb - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgfc - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgfd - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgfe - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgff - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgfj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgfk - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgfm - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgfn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgfs - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgkn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgkq - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgkw - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgky - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgmg - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgmj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgmm - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgmn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgms - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgmt - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgmu - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgnz - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgpn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgpp - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgpq - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgpt - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgpv - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgpw - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgq3 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgq4 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgq5 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgq6 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgq8 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgq9 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtgqb - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtspg - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtspm - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtspn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtspp - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtspq - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsps - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtspt - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtspu - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsqc - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsqf - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsqg - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsqt - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsqu - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsqv - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsqw - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsqx - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsr0 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsr1 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsw8 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsw9 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtswc - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtswf - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtswg - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtswu - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtswy - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsxh - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsxj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsxn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsxp - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsyx - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsyy - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsyz - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsz0 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsz1 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsz4 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtsz5 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtszh - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtszj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtszn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttdp - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttdq - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttdr - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttdt - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttdu - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttdv - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttdw - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtte5 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtte6 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtte7 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtte9 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtteb - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttec - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtted - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtteh - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttf0 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttf2 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttf3 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttf6 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttf7 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttfk - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttfm - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttfq - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttfr - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttft - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttfw - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttjc - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttje - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttjf - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttjg - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttjk - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttjm - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttjn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttjp - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttjq - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttjs - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttk7 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttkb - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttkc - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttkd - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttke - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttkf - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttkj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttkk - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttkm - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttkn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttkp - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttm0 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttn1 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttn2 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttn3 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttn8 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttyg - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttyj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttym - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttyn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttyp - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttyq - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttyr - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttys - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttyt - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttyu - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttz5 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttz6 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttz7 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttzc - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttzd - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttzf - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wttzk - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtu05 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtu06 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtu07 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtu0c - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtu0d - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtu0f - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtu10 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtu11 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtu12 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtv8r - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtv8w - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtv8x - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtv8y - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtv9j - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtv9m - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtv9n - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtv9t - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtv9v - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvb0 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvb1 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvb2 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvd7 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvde - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvdf - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvdg - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvdh - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvdj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvdk - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtve4 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtve6 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtve9 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvec - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvmy - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvmz - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvs1 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvs3 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvs9 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvsc - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvt0 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvt1 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtvt2 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw0f - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw0g - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw14 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw15 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw1h - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw1j - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw1n - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw1p - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw1z - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw30 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw32 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw33 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw36 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw37 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw39 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw3b - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw3c - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw3d - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw3e - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw3f - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw3g - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw3s - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw3u - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw3v - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw3y - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw42 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw43 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw45 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw46 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw47 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw4h - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw4j - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw4n - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw4p - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw64 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw65 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw6h - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtw6j - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtwn2 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtwn3 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtwn6 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtwn7 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtwnk - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtwnm - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtwnq - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wtwnr - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww50j - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww50n - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww50q - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww50w - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww50x - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww50z - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww52b - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww530 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww532 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww533 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww539 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww53c - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww561 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww564 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww566 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww56d - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww56e - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww56f - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww56g - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww574 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww575 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww577 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww57k - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww57s - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww57u - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww57v - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5kj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5km - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5kq - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5kt - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5kw - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5ky - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5mg - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5mj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5mk - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5mm - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5mn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5ms - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5mu - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5q5 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5q7 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5qd - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5qe - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5qf - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5r3 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5r4 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5r6 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5r9 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5rb - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww5rc - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww70r - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww70v - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww70w - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww70x - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww70y - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww71g - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww71j - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww71k - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww71m - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww71s - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww71u - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww720 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww722 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww744 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww745 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww746 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww74d - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww74e - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww74g - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww74u - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww74v - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww75j - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww75n - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww75p - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww75r - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww75x - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww778 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7jz - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7k0 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7k2 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7k8 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7kb - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7kc - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7m1 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7m3 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7m8 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7m9 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7mb - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7mc - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7nm - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7nn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7np - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7nq - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7ns - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7nt - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7nu - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7p7 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7pd - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7pe - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7pf - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7pg - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7ph - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww7pk - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdcr - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdcv - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdcx - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdcy - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdfg - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdfj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdfk - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdfm - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdfs - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdfu - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdg3 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdg4 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdg5 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdg6 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdg8 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdg9 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdgb - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdsp - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdsr - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdsw - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdsx - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdsy - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdtn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdu0 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdy0 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdy2 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdy8 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdy9 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdyd - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdyf - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdz4 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdz6 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdz7 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdze - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwdzu - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwe05 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwe07 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwe0c - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwe0d - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwe0e - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwe0f - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwe0h - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwe0k - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwe11 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwe12 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwe13 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwfbh - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwfbk - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwfbs - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwfbt - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwfby - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwfbz - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwfcp - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg10 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg11 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg13 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg16 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg1d - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg1e - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg1g - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg45 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg47 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg4g - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg4k - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg4s - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg4u - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg55 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg56 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg57 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg5d - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg5e - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg5g - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg5u - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwghh - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwghk - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwghs - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwghu - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgjh - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgjk - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgjs - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgju - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgjv - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgnj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgnn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgnq - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgnw - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgnx - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgpy - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgpz - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgq8 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgq9 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgqc - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgqf - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgr1 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgr2 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgr3 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgr4 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgr8 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgrb - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx49y - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx49z - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4bx - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4by - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4bz - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4c3 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4c5 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4c6 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4c7 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4c8 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4c9 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4cb - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4ch - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4cj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4dj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4dm - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4dn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4dp - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4dq - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4dr - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4ds - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4dt - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4du - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4dv - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4dw - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4dx - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4dy - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4dz - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4eh - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4ej - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4em - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4en - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4ep - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4eq - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4er - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4et - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4ev - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4ew - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4ex - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4ey - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4ez - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4f8 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4f9 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4fb - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4fc - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4ff - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4fv - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4g0 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4g1 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4g2 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4g3 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4g4 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4g5 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4g6 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4g8 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4g9 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4gb - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4gc - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4gd - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4ge - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4gf - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4gh - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4gj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4gn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4gp - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4gs - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4gt - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4gu - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4gv - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4s1 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4s4 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4s5 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4s6 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4s7 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4sh - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4sj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4sk - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4sm - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4sn - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4ss - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4st - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4su - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4sv - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4u4 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4u6 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4uh - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4uj - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx503 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx505 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx506 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx507 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx508 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx509 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx50h - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx50j - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx50n - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx550 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx551 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx553 - Utente 003 <--------
+***************************************************
+
+
+
+***************************************************
+***************************************************
+---------- PREFISSI DI LUNGHEZZA 1, utente 004 -----------
+***************************************************
+***************************************************
+
+1 prefixes of length 1, limit to ALL
+
+
+***************************************************
+------> Current Prefix: w - Utente 004 <--------
+***************************************************
+ENTRATO CON PREFISSO w
+ - Scrivo su file i samples -
+Prefisso: w
+Numero sample positivi: 335
+Numero sample negativi: 12890
+Totale positive: 335. Totali negative: 12890
+SET DOWNSAMPLED: 201
+END: Positive DOWNSAMPLED SET: 167
+END: Positive DOWNSAMPLED SET: 167
+END: Positive DOWNSAMPLED SET: 167
+END: Positive DOWNSAMPLED SET: 167
+END: Positive DOWNSAMPLED SET: 167
+END: Positive DOWNSAMPLED SET: 167
+END: Positive DOWNSAMPLED SET: 167
+END: Positive DOWNSAMPLED SET: 167
+END: Positive DOWNSAMPLED SET: 167
+END: Positive DOWNSAMPLED SET: 167
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 698
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 95 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 698
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 5 samples positivi e 95 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 651
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 5 samples positivi e 94 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 665
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 95 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 698
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 95 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 1014
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 96 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 1000
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 5 samples positivi e 95 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 1061
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 97 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 1061
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 2 samples positivi e 97 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 1047
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 96 negativi
+
+********  BLUESTAR w-cv: 0 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004-samples-CV0.txt
+4 positivi
+95 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 167 e 698
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-DOTbluestarALF-CV0.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-CV0-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 1 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004-samples-CV1.txt
+5 positivi
+95 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 167 e 698
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-DOTbluestarALF-CV1.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-CV1-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 2 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004-samples-CV2.txt
+5 positivi
+94 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 167 e 651
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-DOTbluestarALF-CV2.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-CV2-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 3 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004-samples-CV3.txt
+4 positivi
+95 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 167 e 665
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-DOTbluestarALF-CV3.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-CV3-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 4 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004-samples-CV4.txt
+4 positivi
+95 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 167 e 698
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-DOTbluestarALF-CV4.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-CV4-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 5 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004-samples-CV5.txt
+4 positivi
+96 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 167 e 1014
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-DOTbluestarALF-CV5.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-CV5-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 6 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004-samples-CV6.txt
+5 positivi
+95 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 167 e 1000
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-DOTbluestarALF-CV6.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-CV6-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 7 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004-samples-CV7.txt
+3 positivi
+97 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 167 e 1061
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-DOTbluestarALF-CV7.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-CV7-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 8 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004-samples-CV8.txt
+2 positivi
+97 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 167 e 1061
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-DOTbluestarALF-CV8.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-CV8-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 9 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004-samples-CV9.txt
+4 positivi
+96 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 167 e 1047
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-DOTbluestarALF-CV9.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/1/w-004A-CV9-TXTbluestarALF.txt
+
+
+
+***************************************************
+***************************************************
+---------- PREFISSI DI LUNGHEZZA 2, utente 004 -----------
+***************************************************
+***************************************************
+
+3 prefixes of length 2, limit to ALL
+
+
+***************************************************
+------> Current Prefix: wt - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: ww - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx - Utente 004 <--------
+***************************************************
+ENTRATO CON PREFISSO wx
+ - Scrivo su file i samples -
+Prefisso: wx
+Numero sample positivi: 307
+Numero sample negativi: 11992
+Totale positive: 307. Totali negative: 11992
+SET DOWNSAMPLED: 185
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 334
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 81 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 350
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 81 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 392
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 81 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 350
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 81 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 392
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 81 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 350
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 81 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 384
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 81 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 449
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 2 samples positivi e 82 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 358
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 81 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 285
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 5 samples positivi e 80 negativi
+
+********  BLUESTAR wx-cv: 0 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004-samples-CV0.txt
+3 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 153 e 334
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-DOTbluestarALF-CV0.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-CV0-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 1 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004-samples-CV1.txt
+3 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 153 e 350
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-DOTbluestarALF-CV1.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-CV1-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 2 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004-samples-CV2.txt
+4 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 153 e 392
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-DOTbluestarALF-CV2.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-CV2-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 3 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004-samples-CV3.txt
+3 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 153 e 350
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-DOTbluestarALF-CV3.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-CV3-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 4 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004-samples-CV4.txt
+3 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 153 e 392
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-DOTbluestarALF-CV4.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-CV4-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 5 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004-samples-CV5.txt
+4 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 153 e 350
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-DOTbluestarALF-CV5.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-CV5-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 6 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004-samples-CV6.txt
+4 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 153 e 384
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-DOTbluestarALF-CV6.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-CV6-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 7 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004-samples-CV7.txt
+2 positivi
+82 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 153 e 449
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-DOTbluestarALF-CV7.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-CV7-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 8 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004-samples-CV8.txt
+3 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 153 e 358
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-DOTbluestarALF-CV8.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-CV8-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 9 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004-samples-CV9.txt
+5 positivi
+80 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 153 e 285
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-DOTbluestarALF-CV9.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/2/wx-004A-CV9-TXTbluestarALF.txt
+
+
+
+***************************************************
+***************************************************
+---------- PREFISSI DI LUNGHEZZA 3, utente 004 -----------
+***************************************************
+***************************************************
+
+7 prefixes of length 3, limit to ALL
+
+
+***************************************************
+------> Current Prefix: wtw - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwg - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwy - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4 - Utente 004 <--------
+***************************************************
+ENTRATO CON PREFISSO wx4
+ - Scrivo su file i samples -
+Prefisso: wx4
+Numero sample positivi: 306
+Numero sample negativi: 14049
+Totale positive: 306. Totali negative: 14049
+SET DOWNSAMPLED: 184
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+END: Positive DOWNSAMPLED SET: 153
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 4680
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 786 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6614
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 14 samples positivi e 781 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6685
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 10 samples positivi e 786 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6704
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 12 samples positivi e 783 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 4690
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 14 samples positivi e 782 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 5317
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 18 samples positivi e 778 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 3381
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 16 samples positivi e 781 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 4536
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 16 samples positivi e 779 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 3422
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 18 samples positivi e 778 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 5675
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 13 samples positivi e 782 negativi
+
+********  BLUESTAR wx4-cv: 0 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004-samples-CV0.txt
+9 positivi
+786 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 153 e 4680
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-DOTbluestarALF-CV0.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-CV0-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 1 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004-samples-CV1.txt
+14 positivi
+781 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 153 e 6614
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-DOTbluestarALF-CV1.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-CV1-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 2 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004-samples-CV2.txt
+10 positivi
+786 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 153 e 6685
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-DOTbluestarALF-CV2.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-CV2-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 3 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004-samples-CV3.txt
+12 positivi
+783 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 153 e 6704
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-DOTbluestarALF-CV3.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-CV3-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 4 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004-samples-CV4.txt
+14 positivi
+782 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 153 e 4690
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-DOTbluestarALF-CV4.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-CV4-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 5 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004-samples-CV5.txt
+18 positivi
+778 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 153 e 5317
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-DOTbluestarALF-CV5.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-CV5-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 6 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004-samples-CV6.txt
+16 positivi
+781 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 153 e 3381
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-DOTbluestarALF-CV6.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-CV6-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 7 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004-samples-CV7.txt
+16 positivi
+779 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 153 e 4536
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-DOTbluestarALF-CV7.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-CV7-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 8 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004-samples-CV8.txt
+18 positivi
+778 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 153 e 3422
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-DOTbluestarALF-CV8.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-CV8-TXTbluestarALF.txt
+
+********  BLUESTAR wx4-cv: 9 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004-samples-CV9.txt
+13 positivi
+782 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 153 e 5675
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-DOTbluestarALF-CV9.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/3/wx4-004A-CV9-TXTbluestarALF.txt
+
+
+
+***************************************************
+------> Current Prefix: wx5 - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wxh - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wxj - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+***************************************************
+---------- PREFISSI DI LUNGHEZZA 4, utente 004 -----------
+***************************************************
+***************************************************
+
+38 prefixes of length 4, limit to ALL
+
+
+***************************************************
+------> Current Prefix: wtw3 - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgp - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgq - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgr - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgt - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgw - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgx - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwgz - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwym - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwyt - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwyw - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wwyy - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx49 - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4b - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4c - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4d - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4e - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4f - Utente 004 <--------
+***************************************************
+
+
+
+***************************************************
+------> Current Prefix: wx4g - Utente 004 <--------
+***************************************************
+ENTRATO CON PREFISSO wx4g
+ - Scrivo su file i samples -
+Prefisso: wx4g
+Numero sample positivi: 42
+Numero sample negativi: 7531
+Totale positive: 42. Totali negative: 7531
+SET DOWNSAMPLED: 26
+END: Positive DOWNSAMPLED SET: 21
+END: Positive DOWNSAMPLED SET: 21
+END: Positive DOWNSAMPLED SET: 21
+END: Positive DOWNSAMPLED SET: 21
+END: Positive DOWNSAMPLED SET: 21
+END: Positive DOWNSAMPLED SET: 21
+END: Positive DOWNSAMPLED SET: 21
+END: Positive DOWNSAMPLED SET: 21
+END: Positive DOWNSAMPLED SET: 21
+END: Positive DOWNSAMPLED SET: 21
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6565
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 12 samples positivi e 1296 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 5727
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 14 samples positivi e 1295 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 5859
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 15 samples positivi e 1294 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 5439
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 15 samples positivi e 1295 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 5645
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 14 samples positivi e 1295 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 5827
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 14 samples positivi e 1294 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 5617
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 12 samples positivi e 1296 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 5615
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 13 samples positivi e 1296 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 6737
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 10 samples positivi e 1297 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 5930
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 12 samples positivi e 1297 negativi
+
+********  BLUESTAR wx4g-cv: 0 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-004-samples-CV0.txt
+12 positivi
+1296 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 21 e 6565
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-004A-DOTbluestarALF-CV0.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-004A-CV0-TXTbluestarALF.txt
+
+********  BLUESTAR wx4g-cv: 1 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-004-samples-CV1.txt
+14 positivi
+1295 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 21 e 5727
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-004A-DOTbluestarALF-CV1.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-004A-CV1-TXTbluestarALF.txt
+
+********  BLUESTAR wx4g-cv: 2 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-004-samples-CV2.txt
+15 positivi
+1294 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 21 e 5859
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-004A-DOTbluestarALF-CV2.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-004A-CV2-TXTbluestarALF.txt
+
+********  BLUESTAR wx4g-cv: 3 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-004-samples-CV3.txt
+15 positivi
+1295 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 21 e 5439
+ START BlueStar inference process...
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-004A-DOTbluestarALF-CV3.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-004A-CV3-TXTbluestarALF.txt
+
+********  BLUESTAR wx4g-cv: 4 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_BLUES_05_18_13_44_43/4/wx4g-004-samples-CV4.txt
+14 positivi
+1295 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+Totale tot_wn_w: 21 e 5645
+ START BlueStar inference process...

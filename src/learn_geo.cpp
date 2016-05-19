@@ -92,9 +92,9 @@ int main(int argc, char* argv[]){
 
 	geoExp* myexp = new geoExp(db_path, user, min_l_prefix, max_l_prefix, no_repetitions_inside_strings, train_prop, cold_start_prop, num_random_sets, edsm, bluestar, alpha, delta);
 
-	myexp->run_inference_splitting_users();
+	//myexp->run_inference_splitting_users();
 	//myexp->run_inference_similarity();
-	//myexp->run_inference_coldstart_similarity();
+	myexp->run_inference_coldstart_similarity();
 	exit(EXIT_SUCCESS);
 	//myexp->run_inference_accuracy();
 

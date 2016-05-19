@@ -2778,6 +2778,7 @@ void geoExp::write_minitraj_from_db_like_samples_0_25_TRAINTEST_TESTSET(string u
 
 		for(int i=0; i< cross_val_run; ++i)
 		{
+			// Create the "1/4 positive training set"
 			for(auto it=positive_samples->begin(); it != positive_samples->end(); ++it)
 			{
 				if(test_set[i].size() < dim_test)
@@ -2794,7 +2795,7 @@ void geoExp::write_minitraj_from_db_like_samples_0_25_TRAINTEST_TESTSET(string u
 			cout << "CV: "<<i << " Train finale: "<<positive_training_set[i].size()<<" - testset finale: "<< test_set[i].size() <<endl;
 
 
-			// Paired users training set: union of 1/4users and entire paired user
+			// Paired users training set: union of 1/4users (positive_training_set[i]) and entire paired user (positive_samples_paired_users)
 			for(int k=0; k<n_compared_users_coldstart; ++k)
 				positive_samples_paired_users[k][i]->insert( positive_samples_paired_users[k][i]->end(), positive_training_set[i].begin(), positive_training_set[i].end() );
 		}
