@@ -1,0 +1,570 @@
+nohup: ignoring input
+utente: 3
+DB path is: /home/gnds/Desktop/geolife.db
+User: 3
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+Esperimento 0.01
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+----> Number of run for CROSS VALIDATION: 10
+"Experiments" folder checked
+Current experiment directory is: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user3_BLUES_05_19_18_21_13/
+Selected algorithms are: 
+BlueStar
+Database path: /home/gnds/Desktop/geolife.db
+Lunghezza minima dei prefissi: 1
+
+
+
+***************************************************
+***************************************************
+---------- PREFISSI DI LUNGHEZZA 1 -----------
+***************************************************
+***************************************************
+Time taken to extract prefixesL:1 0.11s
+
+1 prefixes of length 1, limit to ALL
+********  Current prefix: w *********
+ - Scrivo su file i samples -
+Prefisso: w
+Numero sample positivi: 298
+Numero sample negativi: 12901
+Dimensioni previste: pos: 298 | train: 179 - test: 119
+Dimensione traininset COLD-START: 75
+CV: 0 Train finale: 75 - testset finale: 119
+CV: 1 Train finale: 75 - testset finale: 119
+CV: 2 Train finale: 75 - testset finale: 119
+CV: 3 Train finale: 75 - testset finale: 119
+CV: 4 Train finale: 75 - testset finale: 119
+CV: 5 Train finale: 75 - testset finale: 119
+CV: 6 Train finale: 75 - testset finale: 119
+CV: 7 Train finale: 75 - testset finale: 119
+CV: 8 Train finale: 75 - testset finale: 119
+CV: 9 Train finale: 75 - testset finale: 119
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 819
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 97 negativi
+Scrittura su file del test set
+Su file sono presenti 5 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 586
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 751
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 528
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 708
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 407
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 17 samples positivi e 83 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 576
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 10 samples positivi e 90 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 293
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 77 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 221
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 25 samples positivi e 75 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 432
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 76 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 829
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 97 negativi
+Scrittura su file del test set
+Su file sono presenti 5 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 586
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 751
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 528
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 708
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 407
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 17 samples positivi e 83 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 576
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 10 samples positivi e 90 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 293
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 77 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 221
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 25 samples positivi e 75 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 432
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 76 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 836
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 2 samples positivi e 98 negativi
+Scrittura su file del test set
+Su file sono presenti 6 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 586
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 751
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 528
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 708
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 407
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 17 samples positivi e 83 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 576
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 10 samples positivi e 90 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 293
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 77 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 221
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 25 samples positivi e 75 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 432
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 76 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 804
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 5 samples positivi e 95 negativi
+Scrittura su file del test set
+Su file sono presenti 3 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 586
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 751
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 528
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 708
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 407
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 17 samples positivi e 83 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 576
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 10 samples positivi e 90 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 293
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 77 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 221
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 25 samples positivi e 75 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 432
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 76 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 804
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 5 samples positivi e 95 negativi
+Scrittura su file del test set
+Su file sono presenti 5 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 586
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 751
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 528
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 708
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 407
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 17 samples positivi e 83 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 576
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 10 samples positivi e 90 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 293
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 77 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 221
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 25 samples positivi e 75 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 432
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 76 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 819
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 97 negativi
+Scrittura su file del test set
+Su file sono presenti 5 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 586
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 751
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 528
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 708
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 407
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 17 samples positivi e 83 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 576
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 10 samples positivi e 90 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 293
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 77 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 221
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 25 samples positivi e 75 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 432
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 76 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 829
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 97 negativi
+Scrittura su file del test set
+Su file sono presenti 5 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 586
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 751
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 528
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 708
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 407
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 17 samples positivi e 83 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 576
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 10 samples positivi e 90 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 293
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 77 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 221
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 25 samples positivi e 75 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 432
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 76 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 836
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 2 samples positivi e 98 negativi
+Scrittura su file del test set
+Su file sono presenti 6 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 586
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 751
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 528
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 708
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 407
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 17 samples positivi e 83 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 576
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 10 samples positivi e 90 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 293
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 77 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 221
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 25 samples positivi e 75 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 432
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 76 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 804
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 5 samples positivi e 95 negativi
+Scrittura su file del test set
+Su file sono presenti 3 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 586
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 751
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 528
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 708
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 407
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 17 samples positivi e 83 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 576
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 10 samples positivi e 90 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 293
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 77 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 221
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 25 samples positivi e 75 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 432
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 76 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 804
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 5 samples positivi e 95 negativi
+Scrittura su file del test set
+Su file sono presenti 5 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 586
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 751
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 528
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 89 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 708
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 91 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 407
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 17 samples positivi e 83 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 576
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 10 samples positivi e 90 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 293
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 77 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 221
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 25 samples positivi e 75 negativi
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 432
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 76 negativi
+Time taken to write minitrajectories to file: 19.49s
+
+********  BLUESTAR Prefix:w *********
+
+User: 003Fold: 0
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user3_BLUES_05_19_18_21_13/1/w-003-samples-COLD-CV0.txt
+3 positivi
+97 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 75 e 819
+ START BlueStar inference process...
+Time taken to BLUESTAR: 1.50509 sec
+BLUSTAR DFA path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user3_BLUES_05_19_18_21_13/1/w-003-DOTbluestarALF.dot
+
+User: 003Fold: 1
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user3_BLUES_05_19_18_21_13/1/w-003-samples-COLD-CV1.txt
+3 positivi
+97 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 75 e 829
+ START BlueStar inference process...
+Time taken to BLUESTAR: 2.85657 sec
+BLUSTAR DFA path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user3_BLUES_05_19_18_21_13/1/w-003-DOTbluestarALF.dot
+
+User: 003Fold: 2
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user3_BLUES_05_19_18_21_13/1/w-003-samples-COLD-CV2.txt
+2 positivi
+98 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 75 e 836
+ START BlueStar inference process...
+Time taken to BLUESTAR: 4.37816 sec
+BLUSTAR DFA path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user3_BLUES_05_19_18_21_13/1/w-003-DOTbluestarALF.dot
+
+User: 003Fold: 3
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user3_BLUES_05_19_18_21_13/1/w-003-samples-COLD-CV3.txt
+5 positivi
+95 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 75 e 804
+ START BlueStar inference process...
+Time taken to BLUESTAR: 6.37171 sec
+BLUSTAR DFA path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user3_BLUES_05_19_18_21_13/1/w-003-DOTbluestarALF.dot
+
+User: 003Fold: 4
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user3_BLUES_05_19_18_21_13/1/w-003-samples-COLD-CV4.txt
+5 positivi
+95 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 75 e 804
+ START BlueStar inference process...
+Time taken to BLUESTAR: 8.2647 sec
+BLUSTAR DFA path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user3_BLUES_05_19_18_21_13/1/w-003-DOTbluestarALF.dot
+
+User: 003Fold: 5
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user3_BLUES_05_19_18_21_13/1/w-003-samples-COLD-CV5.txt
+3 positivi
+97 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 75 e 819
+ START BlueStar inference process...
+Time taken to BLUESTAR: 9.77325 sec
+BLUSTAR DFA path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user3_BLUES_05_19_18_21_13/1/w-003-DOTbluestarALF.dot
+
+User: 003Fold: 6
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user3_BLUES_05_19_18_21_13/1/w-003-samples-COLD-CV6.txt
+3 positivi
+97 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 75 e 829
+ START BlueStar inference process...
+Time taken to BLUESTAR: 11.1352 sec
+BLUSTAR DFA path: /home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user3_BLUES_05_19_18_21_13/1/w-003-DOTbluestarALF.dot
+
+User: 003Fold: 7
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/GI-geo/experiments/user3_BLUES_05_19_18_21_13/1/w-003-samples-COLD-CV7.txt
+2 positivi
+98 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 75 e 836
+ START BlueStar inference process...

@@ -709,8 +709,11 @@ void geoExp::run_inference_splitting_users()
 				cout << "***************************************************" << endl;
 				limit_prefixes_number++;
 
+
+				// Only this prefixes
 				if( ! ( (!(*it).compare("w")) || !((*it).compare("wx")) || !((*it).compare("wx4")) || !((*it).compare("wx4g")) ) )
 					continue;
+
 
 				cout << "ENTRATO CON PREFISSO "<<*it << endl;
 
@@ -1023,8 +1026,6 @@ int geoExp::write_minitraj_from_db_like_samples_TRAINTEST_TESTSET(string user,st
 // Scrive su file un sottocampionamento dell'insieme di training iniziale
 void geoExp::write_minitraj_from_db_like_samples_RANDOM_REDUCED_SAMPLE(string user,string prefix, string path_samples)
 {
-	//int  *wp, *wn;
-	//vector<string>::iterator it;
 
 	vector<string> positive_downsampled_set[num_of_random_sets];
 
@@ -1088,13 +1089,12 @@ void geoExp::write_minitraj_from_db_like_samples_RANDOM_REDUCED_SAMPLE(string us
 
 	// Calcolo la dimensione del training set e del test set
 	int dim_positive_donwsampled = ceil( (double) (training_proportion * dim_positive) / (double) 100);
-	int dim_positive_setb  = dim_positive - dim_positive_donwsampled;
+	//int dim_positive_setb  = dim_positive - dim_positive_donwsampled;
 
 
-	if(dim_positive == 1){
+	if(dim_positive == 1)
 		dim_positive_donwsampled = 1;
-		dim_positive_setb = 0;
-	}
+
 
 	cout << "Totale positive: "<<dim_positive<<". "<<"Totali negative: "<<dim_negative << endl;
 	cout << "SET DOWNSAMPLED: "<<dim_positive_donwsampled <<endl;
@@ -1125,15 +1125,15 @@ void geoExp::write_minitraj_from_db_like_samples_RANDOM_REDUCED_SAMPLE(string us
 
 	////////////////////////////////////////////////////////////////////////
 	// DOWNSAMPLING
-	if(dim_positive_setb != 0)
+	if(dim_positive_donwsampled != 0)
 	{
 		for(int i=0; i< num_of_random_sets; ++i)
 		{
 			random_shuffle(positive_samples->begin(), positive_samples->end());
 
-			int stop_index = positive_samples->size()/2;
+			//int stop_index = positive_samples->size();
 
-			for(auto w=0; w<stop_index; ++w)
+			for(auto w=0; w<dim_positive_donwsampled; ++w)
 				positive_downsampled_set[i].push_back(positive_samples->at(w));
 
 
