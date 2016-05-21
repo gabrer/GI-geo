@@ -772,23 +772,18 @@ void geoExp::run_inference_splitting_users()
 						// *********************
 						cout << endl<< "********  BLUESTAR "+current_prefix+"-cv: "+intTostring(i)+" *********" << endl;
 						gi::dfa* BLUESTAR_dfa_A;
-						//gi::dfa* BLUESTAR_dfa_B;
 
 						path_training_data	= path_samples + "-" + current_user + "-samples-CV"+intTostring(i)+".txt";
-						//path_test_data 		= path_samples + "-" + current_user + "-test_samples-CV"+intTostring(i)+".txt";  //NB: In realtà è di training qui!
 
 
 						// Read positive and negative samples
 						gi::blueStar* bluestar_exe_A = new gi::blueStar(path_training_data.c_str(), alpha_value, delta_value);
-
-						//gi::blueStar* bluestar_exe_B = new gi::blueStar(path_test_data.c_str(), alpha_value, delta_value);
 
 
 						// Start inference
 						try
 						{
 							BLUESTAR_dfa_A = bluestar_exe_A->run(folder_current_prefix_len+current_prefix+"-");
-							//BLUESTAR_dfa_B = bluestar_exe_B->run(folder_current_prefix_len+current_prefix+"-");
 						}
 						catch( const char* msg ){
 							cout << msg << "; "<<endl;
@@ -803,32 +798,23 @@ void geoExp::run_inference_splitting_users()
 						// *********************
 						// Create dot figure for the inferred automaton
 						string dotBlueStarpath_alf_A = folder_current_prefix_len+current_prefix+"-"+current_user+"A-DOTbluestarALF-CV"+intTostring(i)+".dot";
-					//	string dotBlueStarpath_alf_B = folder_current_prefix_len+current_prefix+"-"+current_user+"B-DOTbluestarALF-CV"+intTostring(i)+".dot";
 						BLUESTAR_dfa_A->print_dfa_dot_mapped_alphabet("BlueStarA", dotBlueStarpath_alf_A.c_str());
-					//	BLUESTAR_dfa_B->print_dfa_dot_mapped_alphabet("BlueStarB", dotBlueStarpath_alf_B.c_str());
 						cout << "BLUSTAR DFA A path: "<<dotBlueStarpath_alf_A << endl;
-						//cout << "BLUSTAR DFA B path: "<<dotBlueStarpath_alf_B << endl;
+
 
 
 						// It prints the inferred automaton in a text file
 						string txtBlueStarpath_alf_A = folder_current_prefix_len+current_prefix+"-"+current_user+"A-CV"+intTostring(i)+"-TXTbluestarALF.txt";
-					//	string txtBlueStarpath_alf_B = folder_current_prefix_len+current_prefix+"-"+current_user+"B-CV"+intTostring(i)+"-TXTbluestarALF.txt";
 						BLUESTAR_dfa_A->print_dfa_in_text_file(txtBlueStarpath_alf_A);
-					//	BLUESTAR_dfa_B->print_dfa_in_text_file(txtBlueStarpath_alf_B);
 						cout << "BLUSTAR DFA TXT path: "<<txtBlueStarpath_alf_A << endl;
-//						cout << "BLUSTAR DFA TXT path: "<<txtBlueStarpath_alf_B << endl;
 
 
 
 						// free allocated memory
 						if(bluestar_exe_A!=NULL)
 							delete bluestar_exe_A;
-//						if(bluestar_exe_B!=NULL)
-//							delete bluestar_exe_B;
 						if(BLUESTAR_dfa_A != NULL)
 							delete BLUESTAR_dfa_A;
-						//if(BLUESTAR_dfa_B != NULL)
-						//	delete BLUESTAR_dfa_B;
 
 					} // CROSS VALL FOR
 
@@ -1089,7 +1075,6 @@ void geoExp::write_minitraj_from_db_like_samples_RANDOM_REDUCED_SAMPLE(string us
 
 	// Calcolo la dimensione del training set e del test set
 	int dim_positive_donwsampled = ceil( (double) (training_proportion * dim_positive) / (double) 100);
-	//int dim_positive_setb  = dim_positive - dim_positive_donwsampled;
 
 
 	if(dim_positive == 1)
@@ -1097,7 +1082,7 @@ void geoExp::write_minitraj_from_db_like_samples_RANDOM_REDUCED_SAMPLE(string us
 
 
 	cout << "Totale positive: "<<dim_positive<<". "<<"Totali negative: "<<dim_negative << endl;
-	cout << "SET DOWNSAMPLED: "<<dim_positive_donwsampled <<endl;
+	cout << "SET DOWNSAMPLED: "<<dim_positive_donwsampled < <endl;
 
 
 	if(dim_positive_donwsampled < MIN_NUMBER_TEST_SAMPLES)
