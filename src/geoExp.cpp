@@ -1082,7 +1082,7 @@ void geoExp::write_minitraj_from_db_like_samples_RANDOM_REDUCED_SAMPLE(string us
 
 
 	cout << "Totale positive: "<<dim_positive<<". "<<"Totali negative: "<<dim_negative << endl;
-	cout << "SET DOWNSAMPLED: "<<dim_positive_donwsampled < <endl;
+	cout << "SET DOWNSAMPLED: "<<dim_positive_donwsampled << endl;
 
 
 	if(dim_positive_donwsampled < MIN_NUMBER_TEST_SAMPLES)
