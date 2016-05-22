@@ -72,6 +72,12 @@ geoExp::geoExp(string db_path, int user, int min_prefixes_length, int max_prefix
 
 	int tmp_min_n_positive_samples = MIN_NUMBER_POSITIVE_SAMPLES;
 	this->cross_val_run = (double) (test_proportion * tmp_min_n_positive_samples) / (double) 100.0;
+	if(this->cross_val_run == 0){
+		int cv_default = K_FOLD_CROSS_VAL;
+		cout << "Computed CVruns is 0! Forced to default value: "<< cv_default << endl;
+		this->cross_val_run = cv_default;
+	}
+
 	cout << "----> Number of run for CROSS VALIDATION: "<<cross_val_run << endl;
 
 
