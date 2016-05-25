@@ -86,7 +86,7 @@ private:
 	// Cold start
 	static const int n_compared_users_coldstart = 9;
 
-	const int int_comp_user_coldstart[n_compared_users_coldstart] = {/*3,*/ 4, 17, 30,  41, 62,  68,  128,  153, 163};
+	const int int_comp_user_coldstart[n_compared_users_coldstart] = {/*3,*/ 4, 17, 30,  41, 62, 68,  128, 153, 163};
 
 	string comp_user_coldstart[n_compared_users_coldstart];		/*!< Map with users id in string-format; assosiated bool is used into inference algorithm */
 

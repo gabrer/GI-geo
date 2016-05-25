@@ -2364,9 +2364,7 @@ void geoExp::run_inference_coldstart_similarity()
 
 		cout << endl << endl << endl;
 		cout << "***************************************************" << endl;
-		cout << "***************************************************" << endl;
 		cout <<  "---------- PREFISSI DI LUNGHEZZA "+intTostring(j)+" -----------"<<endl;
-		cout << "***************************************************" << endl;
 		cout << "***************************************************" << endl;
 
 		clock_t tStart = clock();
@@ -2426,16 +2424,14 @@ void geoExp::run_inference_coldstart_similarity()
 			// *********************************
 			//     WRITE MINITRAJECTORIES FILE FOR EVERY USER
 			// *********************************
-			clock_t tStart = clock();
-
 
 			// Open connection to DB
 			mydb = new geodb(db_path);
 			mydb->connect();
 
 			// Path per scrivere le minitraiettorie come samples, per il prefisso considerato
-			path_samples					= 	folder_current_prefix_len+current_prefix;
-			path_training_data			= path_samples + "-"+users[user]+"-samples.txt";
+			path_samples			= folder_current_prefix_len+current_prefix;
+			path_training_data		= path_samples + "-"+users[user]+"-samples.txt";
 			path_training_data_pair	= "";
 
 
@@ -2703,8 +2699,10 @@ void geoExp::write_minitraj_from_db_like_samples_0_25_TRAINTEST_TESTSET(string u
 
 	// Calcolo la dimensione del training set e del test set
 	int dim_train = ceil( (double) (training_proportion * dim_positive) / (double) 100);
-	int dim_test  = dim_positive - dim_train;
+	//int dim_test  = dim_positive - dim_train;
 	int dim_cold_start_train = ceil( (double) dim_positive * cold_start_proportion);
+	int dim_test  = dim_positive - dim_cold_start_train;								// Fixed testset size
+
 
 	if(dim_positive == 1){
 		dim_train = 1;
@@ -2754,7 +2752,7 @@ void geoExp::write_minitraj_from_db_like_samples_0_25_TRAINTEST_TESTSET(string u
 
 	for(int i=0; i<n_compared_users_coldstart; ++i){
 		positive_samples_paired_users[i][0] = mydb->get_minitraj_for_prefix_and_user(comp_user_coldstart[i], prefix);
-		negative_samples_paired_users[i] = mydb->get_minitraj_for_prefix_and_allUsers_EXCEPT_2_users(user, comp_user_coldstart[i], prefix);
+		negative_samples_paired_users[i] 	= mydb->get_minitraj_for_prefix_and_allUsers_EXCEPT_2_users(user, comp_user_coldstart[i], prefix);
 
 		for(int k=1; k<cross_val_run; ++k)
 			positive_samples_paired_users[i][k] = positive_samples_paired_users[i][0];
