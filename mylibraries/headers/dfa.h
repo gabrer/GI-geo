@@ -226,7 +226,7 @@ class dfa
 
 		vector<vector<SYMBOL>>		get_cover_set();
 
-		vector<vector<SYMBOL>> 		get_augmented_characterization_set(int num_of_states_target_dfa);
+		vector<vector<SYMBOL>> 		get_augmented_characterization_set(int num_of_states_target_dfa, vector<vector<SYMBOL>>& aug_characterization_set);
 
 		vector<vector<SYMBOL>> 		get_w_method_test_set(int num_of_states_target_dfa);
 

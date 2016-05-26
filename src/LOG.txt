@@ -1,0 +1,2283 @@
+utente: 10
+DB path is: /home/gabriele/Desktop/geolife.db
+User: 10
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+Esperimento 0.01
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+----> Number of run for CROSS VALIDATION: 10
+"Experiments" folder checked
+Current experiment directory is: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/
+Selected algorithms are: 
+EDSM
+BlueStar
+Alpha of Blue*: 0.01
+Database path: /home/gabriele/Desktop/geolife.db
+Lunghezza minima dei prefissi: 1
+
+
+
+///////////////////////////////////////////////////////
+---------- PREFISSI DI LUNGHEZZA 1, utente 010 -----------
+///////////////////////////////////////////////////////
+Time taken to extract prefixesL:1 0.04s
+
+3 prefixes of length 1, limit to ALL
+
+
+***************************************************
+------> Current Prefix: t - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: w - Utente 010 <--------
+***************************************************
+ - Scrivo su file i samples -
+Prefisso: w
+Numero sample positivi: 158
+Numero sample negativi: 14751
+Tot previste pos: 158 | train: 95 - test: 63
+Train finale: 95 - testset finale: 63
+Train finale: 95 - testset finale: 63
+Train finale: 95 - testset finale: 63
+Train finale: 95 - testset finale: 63
+Train finale: 95 - testset finale: 63
+Train finale: 95 - testset finale: 63
+Train finale: 95 - testset finale: 63
+Train finale: 95 - testset finale: 63
+Train finale: 95 - testset finale: 63
+Train finale: 95 - testset finale: 63
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 426
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 21 samples positivi e 76 negativi
+Scrittura su file del test set
+Su file sono presenti 20 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 365
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 27 samples positivi e 70 negativi
+Scrittura su file del test set
+Su file sono presenti 11 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 499
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 17 samples positivi e 76 negativi
+Scrittura su file del test set
+Su file sono presenti 22 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 377
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 24 samples positivi e 74 negativi
+Scrittura su file del test set
+Su file sono presenti 15 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 406
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 70 negativi
+Scrittura su file del test set
+Su file sono presenti 17 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 426
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 21 samples positivi e 76 negativi
+Scrittura su file del test set
+Su file sono presenti 20 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 365
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 27 samples positivi e 70 negativi
+Scrittura su file del test set
+Su file sono presenti 11 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 499
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 17 samples positivi e 76 negativi
+Scrittura su file del test set
+Su file sono presenti 22 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 377
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 24 samples positivi e 74 negativi
+Scrittura su file del test set
+Su file sono presenti 15 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 406
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 23 samples positivi e 70 negativi
+Scrittura su file del test set
+Su file sono presenti 17 test samples
+
+******** EDSM w  ********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-samples-CV0.txt
+21 positivi
+76 negativi
+Costruzione APTA...
+PTA costruito
+ START Edsm inference process...
+Time taken to EDSM: 12.43s
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-test_samples-CV0.txt
+20 positivi
+Stringhe di test lette dal file: 20
+**** End of generalization test ****
+Tasso di generalizzazione di EDSM: 84.127%
+EDSM  DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-DOTedsmALF.dot
+EDSM DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-TXTedsmALF.txt
+
+********  BLUESTAR w-cv: 0 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-samples-CV0.txt
+21 positivi
+76 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 95 e 426
+ START BlueStar inference process...
+Time taken to BLUESTAR: 4.50749 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-test_samples-CV0.txt
+20 positivi
+Stringhe di test lette dal file: 20
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 93.6508%
+Error-rate sulle stringhe positive: 0.228407
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-DOTbluestarALF-CV0.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-CV0-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 1 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-samples-CV1.txt
+27 positivi
+70 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 95 e 365
+ START BlueStar inference process...
+Time taken to BLUESTAR: 7.53466 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-test_samples-CV1.txt
+11 positivi
+Stringhe di test lette dal file: 11
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 96.8254%
+Error-rate sulle stringhe positive: 0.15
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-DOTbluestarALF-CV1.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-CV1-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 2 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-samples-CV2.txt
+17 positivi
+76 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 95 e 499
+ START BlueStar inference process...
+Time taken to BLUESTAR: 10.5155 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-test_samples-CV2.txt
+22 positivi
+Stringhe di test lette dal file: 22
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 82.5397%
+Error-rate sulle stringhe positive: 0.223906
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-DOTbluestarALF-CV2.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-CV2-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 3 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-samples-CV3.txt
+24 positivi
+74 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 95 e 377
+ START BlueStar inference process...
+Time taken to BLUESTAR: 13.9757 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-test_samples-CV3.txt
+15 positivi
+Stringhe di test lette dal file: 15
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 98.4127%
+Error-rate sulle stringhe positive: 0.237288
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-DOTbluestarALF-CV3.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-CV3-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 4 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-samples-CV4.txt
+23 positivi
+70 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 95 e 406
+ START BlueStar inference process...
+Time taken to BLUESTAR: 17.5971 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-test_samples-CV4.txt
+17 positivi
+Stringhe di test lette dal file: 17
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 92.0635%
+Error-rate sulle stringhe positive: 0.0758483
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-DOTbluestarALF-CV4.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-CV4-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 5 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-samples-CV5.txt
+21 positivi
+76 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 95 e 426
+ START BlueStar inference process...
+Time taken to BLUESTAR: 22.1168 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-test_samples-CV5.txt
+20 positivi
+Stringhe di test lette dal file: 20
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 93.6508%
+Error-rate sulle stringhe positive: 0.228407
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-DOTbluestarALF-CV5.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-CV5-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 6 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-samples-CV6.txt
+27 positivi
+70 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 95 e 365
+ START BlueStar inference process...
+Time taken to BLUESTAR: 25.1496 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-test_samples-CV6.txt
+11 positivi
+Stringhe di test lette dal file: 11
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 96.8254%
+Error-rate sulle stringhe positive: 0.15
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-DOTbluestarALF-CV6.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-CV6-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 7 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-samples-CV7.txt
+17 positivi
+76 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 95 e 499
+ START BlueStar inference process...
+Time taken to BLUESTAR: 28.1305 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-test_samples-CV7.txt
+22 positivi
+Stringhe di test lette dal file: 22
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 82.5397%
+Error-rate sulle stringhe positive: 0.223906
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-DOTbluestarALF-CV7.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-CV7-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 8 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-samples-CV8.txt
+24 positivi
+74 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 95 e 377
+ START BlueStar inference process...
+Time taken to BLUESTAR: 31.5764 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-test_samples-CV8.txt
+15 positivi
+Stringhe di test lette dal file: 15
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 98.4127%
+Error-rate sulle stringhe positive: 0.237288
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-DOTbluestarALF-CV8.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-CV8-TXTbluestarALF.txt
+
+********  BLUESTAR w-cv: 9 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-samples-CV9.txt
+23 positivi
+70 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 95 e 406
+ START BlueStar inference process...
+Time taken to BLUESTAR: 35.2018 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-010-test_samples-CV9.txt
+17 positivi
+Stringhe di test lette dal file: 17
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 92.0635%
+Error-rate sulle stringhe positive: 0.0758483
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-DOTbluestarALF-CV9.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/1/w-CV9-TXTbluestarALF.txt
+
+
+
+***************************************************
+------> Current Prefix: y - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_EDSM.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_EDSM.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_EDSM.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_EDSM.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR0.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt0.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt0.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt0.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt0.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR1.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt1.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt1.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt1.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt1.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR2.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt2.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt2.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt2.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt2.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR3.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt3.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt3.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt3.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt3.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR4.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt4.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt4.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt4.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt4.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR5.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt5.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt5.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt5.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt5.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR6.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt6.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt6.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt6.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt6.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR7.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt7.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt7.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt7.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt7.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR8.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt8.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt8.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt8.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt8.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR9.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt9.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt9.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt9.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt9.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_FINAL_RESULTS_BLUESTAR.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_MINIMAL_FINAL_RESULTS_EDSM.txt
+
+
+
+///////////////////////////////////////////////////////
+---------- PREFISSI DI LUNGHEZZA 2, utente 010 -----------
+///////////////////////////////////////////////////////
+Time taken to extract prefixesL:2 0.04s
+
+16 prefixes of length 2, limit to ALL
+
+
+***************************************************
+------> Current Prefix: tx - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: tz - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: w7 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wh - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wj - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wk - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wm - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wn - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wp - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wq - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: ws - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wt - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: ww - Utente 010 <--------
+***************************************************
+ - Scrivo su file i samples -
+Prefisso: ww
+Numero sample positivi: 63
+Numero sample negativi: 215
+Tot previste pos: 63 | train: 38 - test: 25
+Train finale: 38 - testset finale: 25
+Train finale: 38 - testset finale: 25
+Train finale: 38 - testset finale: 25
+Train finale: 38 - testset finale: 25
+Train finale: 38 - testset finale: 25
+Train finale: 38 - testset finale: 25
+Train finale: 38 - testset finale: 25
+Train finale: 38 - testset finale: 25
+Train finale: 38 - testset finale: 25
+Train finale: 38 - testset finale: 25
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 150
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 57 negativi
+Scrittura su file del test set
+Su file sono presenti 4 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 157
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 8 samples positivi e 57 negativi
+Scrittura su file del test set
+Su file sono presenti 5 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 148
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 7 samples positivi e 57 negativi
+Scrittura su file del test set
+Su file sono presenti 6 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 150
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 8 samples positivi e 57 negativi
+Scrittura su file del test set
+Su file sono presenti 5 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 158
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 6 samples positivi e 57 negativi
+Scrittura su file del test set
+Su file sono presenti 7 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 150
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 57 negativi
+Scrittura su file del test set
+Su file sono presenti 4 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 157
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 8 samples positivi e 57 negativi
+Scrittura su file del test set
+Su file sono presenti 5 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 148
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 7 samples positivi e 57 negativi
+Scrittura su file del test set
+Su file sono presenti 6 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 150
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 8 samples positivi e 57 negativi
+Scrittura su file del test set
+Su file sono presenti 5 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 155
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 7 samples positivi e 56 negativi
+Scrittura su file del test set
+Su file sono presenti 6 test samples
+
+******** EDSM ww  ********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-samples-CV0.txt
+9 positivi
+57 negativi
+Costruzione APTA...
+PTA costruito
+ START Edsm inference process...
+Time taken to EDSM: 1.23s
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-test_samples-CV0.txt
+4 positivi
+Stringhe di test lette dal file: 4
+**** End of generalization test ****
+Tasso di generalizzazione di EDSM: 92%
+EDSM  DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-DOTedsmALF.dot
+EDSM DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-TXTedsmALF.txt
+
+********  BLUESTAR ww-cv: 0 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-samples-CV0.txt
+9 positivi
+57 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 38 e 150
+ START BlueStar inference process...
+Time taken to BLUESTAR: 0.441801 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-test_samples-CV0.txt
+4 positivi
+Stringhe di test lette dal file: 4
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 96%
+Error-rate sulle stringhe positive: 0.196809
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-DOTbluestarALF-CV0.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-CV0-TXTbluestarALF.txt
+
+********  BLUESTAR ww-cv: 1 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-samples-CV1.txt
+8 positivi
+57 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 38 e 157
+ START BlueStar inference process...
+Time taken to BLUESTAR: 1.11168 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-test_samples-CV1.txt
+5 positivi
+Stringhe di test lette dal file: 5
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 88%
+Error-rate sulle stringhe positive: 0.0974359
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-DOTbluestarALF-CV1.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-CV1-TXTbluestarALF.txt
+
+********  BLUESTAR ww-cv: 2 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-samples-CV2.txt
+7 positivi
+57 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 38 e 148
+ START BlueStar inference process...
+Time taken to BLUESTAR: 1.97437 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-test_samples-CV2.txt
+6 positivi
+Stringhe di test lette dal file: 6
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 84%
+Error-rate sulle stringhe positive: 0.0376344
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-DOTbluestarALF-CV2.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-CV2-TXTbluestarALF.txt
+
+********  BLUESTAR ww-cv: 3 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-samples-CV3.txt
+8 positivi
+57 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 38 e 150
+ START BlueStar inference process...
+Time taken to BLUESTAR: 2.37829 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-test_samples-CV3.txt
+5 positivi
+Stringhe di test lette dal file: 5
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 96%
+Error-rate sulle stringhe positive: 0.180851
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-DOTbluestarALF-CV3.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-CV3-TXTbluestarALF.txt
+
+********  BLUESTAR ww-cv: 4 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-samples-CV4.txt
+6 positivi
+57 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 38 e 158
+ START BlueStar inference process...
+Time taken to BLUESTAR: 3.15013 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-test_samples-CV4.txt
+7 positivi
+Stringhe di test lette dal file: 7
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 80%
+Error-rate sulle stringhe positive: 0.112245
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-DOTbluestarALF-CV4.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-CV4-TXTbluestarALF.txt
+
+********  BLUESTAR ww-cv: 5 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-samples-CV5.txt
+9 positivi
+57 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 38 e 150
+ START BlueStar inference process...
+Time taken to BLUESTAR: 3.55209 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-test_samples-CV5.txt
+4 positivi
+Stringhe di test lette dal file: 4
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 96%
+Error-rate sulle stringhe positive: 0.196809
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-DOTbluestarALF-CV5.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-CV5-TXTbluestarALF.txt
+
+********  BLUESTAR ww-cv: 6 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-samples-CV6.txt
+8 positivi
+57 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 38 e 157
+ START BlueStar inference process...
+Time taken to BLUESTAR: 4.21931 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-test_samples-CV6.txt
+5 positivi
+Stringhe di test lette dal file: 5
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 88%
+Error-rate sulle stringhe positive: 0.0974359
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-DOTbluestarALF-CV6.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-CV6-TXTbluestarALF.txt
+
+********  BLUESTAR ww-cv: 7 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-samples-CV7.txt
+7 positivi
+57 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 38 e 148
+ START BlueStar inference process...
+Time taken to BLUESTAR: 5.12114 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-test_samples-CV7.txt
+6 positivi
+Stringhe di test lette dal file: 6
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 84%
+Error-rate sulle stringhe positive: 0.0376344
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-DOTbluestarALF-CV7.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-CV7-TXTbluestarALF.txt
+
+********  BLUESTAR ww-cv: 8 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-samples-CV8.txt
+8 positivi
+57 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 38 e 150
+ START BlueStar inference process...
+Time taken to BLUESTAR: 5.52767 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-test_samples-CV8.txt
+5 positivi
+Stringhe di test lette dal file: 5
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 96%
+Error-rate sulle stringhe positive: 0.180851
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-DOTbluestarALF-CV8.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-CV8-TXTbluestarALF.txt
+
+********  BLUESTAR ww-cv: 9 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-samples-CV9.txt
+7 positivi
+56 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 38 e 155
+ START BlueStar inference process...
+Time taken to BLUESTAR: 6.31259 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-010-test_samples-CV9.txt
+6 positivi
+Stringhe di test lette dal file: 6
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 84%
+Error-rate sulle stringhe positive: 0.150259
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-DOTbluestarALF-CV9.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/ww-CV9-TXTbluestarALF.txt
+
+
+
+***************************************************
+------> Current Prefix: wx - Utente 010 <--------
+***************************************************
+ - Scrivo su file i samples -
+Prefisso: wx
+Numero sample positivi: 105
+Numero sample negativi: 13701
+Tot previste pos: 105 | train: 63 - test: 42
+Train finale: 63 - testset finale: 42
+Train finale: 63 - testset finale: 42
+Train finale: 63 - testset finale: 42
+Train finale: 63 - testset finale: 42
+Train finale: 63 - testset finale: 42
+Train finale: 63 - testset finale: 42
+Train finale: 63 - testset finale: 42
+Train finale: 63 - testset finale: 42
+Train finale: 63 - testset finale: 42
+Train finale: 63 - testset finale: 42
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 336
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 82 negativi
+Scrittura su file del test set
+Su file sono presenti 4 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 334
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 81 negativi
+Scrittura su file del test set
+Su file sono presenti 3 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 334
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 81 negativi
+Scrittura su file del test set
+Su file sono presenti 3 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 336
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 82 negativi
+Scrittura su file del test set
+Su file sono presenti 4 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 334
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 81 negativi
+Scrittura su file del test set
+Su file sono presenti 3 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 336
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 82 negativi
+Scrittura su file del test set
+Su file sono presenti 4 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 334
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 81 negativi
+Scrittura su file del test set
+Su file sono presenti 3 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 334
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 81 negativi
+Scrittura su file del test set
+Su file sono presenti 3 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 336
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 3 samples positivi e 82 negativi
+Scrittura su file del test set
+Su file sono presenti 4 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 334
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 4 samples positivi e 81 negativi
+Scrittura su file del test set
+Su file sono presenti 3 test samples
+
+******** EDSM wx  ********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-samples-CV0.txt
+3 positivi
+82 negativi
+Costruzione APTA...
+PTA costruito
+ START Edsm inference process...
+Time taken to EDSM: 13.41s
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-test_samples-CV0.txt
+4 positivi
+Stringhe di test lette dal file: 4
+**** End of generalization test ****
+Tasso di generalizzazione di EDSM: 97.619%
+EDSM  DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-DOTedsmALF.dot
+EDSM DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-TXTedsmALF.txt
+
+********  BLUESTAR wx-cv: 0 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-samples-CV0.txt
+3 positivi
+82 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 63 e 336
+ START BlueStar inference process...
+Time taken to BLUESTAR: 0.443796 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-test_samples-CV0.txt
+4 positivi
+Stringhe di test lette dal file: 4
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 97.619%
+Error-rate sulle stringhe positive: 0.258145
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-DOTbluestarALF-CV0.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-CV0-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 1 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-samples-CV1.txt
+4 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 63 e 334
+ START BlueStar inference process...
+Time taken to BLUESTAR: 0.888258 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-test_samples-CV1.txt
+3 positivi
+Stringhe di test lette dal file: 3
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 100%
+Error-rate sulle stringhe positive: 0.267003
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-DOTbluestarALF-CV1.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-CV1-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 2 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-samples-CV2.txt
+4 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 63 e 334
+ START BlueStar inference process...
+Time taken to BLUESTAR: 1.3476 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-test_samples-CV2.txt
+3 positivi
+Stringhe di test lette dal file: 3
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 100%
+Error-rate sulle stringhe positive: 0.267003
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-DOTbluestarALF-CV2.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-CV2-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 3 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-samples-CV3.txt
+3 positivi
+82 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 63 e 336
+ START BlueStar inference process...
+Time taken to BLUESTAR: 1.82329 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-test_samples-CV3.txt
+4 positivi
+Stringhe di test lette dal file: 4
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 97.619%
+Error-rate sulle stringhe positive: 0.258145
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-DOTbluestarALF-CV3.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-CV3-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 4 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-samples-CV4.txt
+4 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 63 e 334
+ START BlueStar inference process...
+Time taken to BLUESTAR: 2.3089 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-test_samples-CV4.txt
+3 positivi
+Stringhe di test lette dal file: 3
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 100%
+Error-rate sulle stringhe positive: 0.267003
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-DOTbluestarALF-CV4.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-CV4-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 5 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-samples-CV5.txt
+3 positivi
+82 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 63 e 336
+ START BlueStar inference process...
+Time taken to BLUESTAR: 2.75289 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-test_samples-CV5.txt
+4 positivi
+Stringhe di test lette dal file: 4
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 97.619%
+Error-rate sulle stringhe positive: 0.258145
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-DOTbluestarALF-CV5.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-CV5-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 6 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-samples-CV6.txt
+4 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 63 e 334
+ START BlueStar inference process...
+Time taken to BLUESTAR: 3.19664 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-test_samples-CV6.txt
+3 positivi
+Stringhe di test lette dal file: 3
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 100%
+Error-rate sulle stringhe positive: 0.267003
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-DOTbluestarALF-CV6.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-CV6-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 7 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-samples-CV7.txt
+4 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 63 e 334
+ START BlueStar inference process...
+Time taken to BLUESTAR: 3.64328 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-test_samples-CV7.txt
+3 positivi
+Stringhe di test lette dal file: 3
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 100%
+Error-rate sulle stringhe positive: 0.267003
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-DOTbluestarALF-CV7.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-CV7-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 8 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-samples-CV8.txt
+3 positivi
+82 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 63 e 336
+ START BlueStar inference process...
+Time taken to BLUESTAR: 4.08399 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-test_samples-CV8.txt
+4 positivi
+Stringhe di test lette dal file: 4
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 97.619%
+Error-rate sulle stringhe positive: 0.258145
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-DOTbluestarALF-CV8.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-CV8-TXTbluestarALF.txt
+
+********  BLUESTAR wx-cv: 9 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-samples-CV9.txt
+4 positivi
+81 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 63 e 334
+ START BlueStar inference process...
+Time taken to BLUESTAR: 4.57901 sec
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-010-test_samples-CV9.txt
+3 positivi
+Stringhe di test lette dal file: 3
+**** End of generalization test ****
+Tasso di generalizzazione di BLUESTAR: 100%
+Error-rate sulle stringhe positive: 0.267003
+BLUSTAR DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-DOTbluestarALF-CV9.dot
+BLUSTAR DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/2/wx-CV9-TXTbluestarALF.txt
+
+
+
+***************************************************
+------> Current Prefix: wz - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: yb - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_EDSM.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_EDSM.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_EDSM.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_EDSM.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR0.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt0.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt0.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt0.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt0.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR1.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt1.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt1.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt1.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt1.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR2.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt2.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt2.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt2.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt2.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR3.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt3.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt3.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt3.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt3.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR4.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt4.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt4.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt4.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt4.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR5.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt5.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt5.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt5.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt5.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR6.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt6.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt6.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt6.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt6.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR7.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt7.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt7.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt7.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt7.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR8.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt8.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt8.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt8.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt8.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_GENERAL_BLUESTAR9.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_NUM_STATES_BLUESTAR.txt9.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ERR_RATE_TRAIN_BLUESTAR.txt9.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_ACTUAL_MERGES_BLUESTAR.txt9.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_HEURISTIC_EVALUATIONS_BLUESTAR.txt9.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_FINAL_RESULTS_BLUESTAR.txt
+Statistics file: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/STAT_MINIMAL_FINAL_RESULTS_EDSM.txt
+
+
+
+///////////////////////////////////////////////////////
+---------- PREFISSI DI LUNGHEZZA 3, utente 010 -----------
+///////////////////////////////////////////////////////
+Time taken to extract prefixesL:3 0.04s
+
+93 prefixes of length 3, limit to ALL
+
+
+***************************************************
+------> Current Prefix: txn - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: txp - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: tz0 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: tz2 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: tz3 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: tz6 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: tz7 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: tzk - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: tzm - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: tzt - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: tzw - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: tzx - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: tzy - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: w7j - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: w7m - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: w7w - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: w7y - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: whr - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: whx - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wj2 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wj3 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wj9 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wjc - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wk2 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wkb - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wm0 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wm6 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wn1 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wn4 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wn6 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wn7 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wns - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wnt - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wnw - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wnx - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wny - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wnz - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wp6 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wp7 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wp8 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wpd - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wph - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wpj - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wpk - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wpn - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wq2 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wq3 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wq4 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wq5 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wq6 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wq9 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wqb - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wqh - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wqj - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wqn - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wqp - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wqx - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: ws0 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: ws2 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: ws8 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wsb - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wt0 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wt3 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wte - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wtf - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wtg - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wth - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wtk - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wtm - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wtq - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wts - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wtt - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wtu - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wtw - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: ww0 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: ww2 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: ww3 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: ww4 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: ww5 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: ww6 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: ww7 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: ww8 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: ww9 - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wwd - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wwe - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wwf - Utente 010 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wwg - Utente 010 <--------
+***************************************************
+ - Scrivo su file i samples -
+Prefisso: wwg
+Numero sample positivi: 57
+Numero sample negativi: 62
+Tot previste pos: 57 | train: 35 - test: 22
+Train finale: 35 - testset finale: 22
+Train finale: 35 - testset finale: 22
+Train finale: 35 - testset finale: 22
+Train finale: 35 - testset finale: 22
+Train finale: 35 - testset finale: 22
+Train finale: 35 - testset finale: 22
+Train finale: 35 - testset finale: 22
+Train finale: 35 - testset finale: 22
+Train finale: 35 - testset finale: 22
+Train finale: 35 - testset finale: 22
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 22
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 10 samples positivi e 17 negativi
+Scrittura su file del test set
+Su file sono presenti 5 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 29
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 6 samples positivi e 18 negativi
+Scrittura su file del test set
+Su file sono presenti 9 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 23
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 10 samples positivi e 18 negativi
+Scrittura su file del test set
+Su file sono presenti 5 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 22
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 9 samples positivi e 17 negativi
+Scrittura su file del test set
+Su file sono presenti 7 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 23
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 7 samples positivi e 18 negativi
+Scrittura su file del test set
+Su file sono presenti 9 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 22
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 11 samples positivi e 17 negativi
+Scrittura su file del test set
+Su file sono presenti 4 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 29
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 7 samples positivi e 18 negativi
+Scrittura su file del test set
+Su file sono presenti 8 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 23
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 8 samples positivi e 18 negativi
+Scrittura su file del test set
+Su file sono presenti 7 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 22
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 10 samples positivi e 17 negativi
+Scrittura su file del test set
+Su file sono presenti 6 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 22
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 7 samples positivi e 17 negativi
+Scrittura su file del test set
+Su file sono presenti 9 test samples
+
+******** EDSM wwg  ********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/3/wwg-010-samples-CV0.txt
+10 positivi
+17 negativi
+Costruzione APTA...
+PTA costruito
+ START Edsm inference process...
+Time taken to EDSM: 4.41s
+**** TEST DI GENERALIZZAZIONE ****
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/3/wwg-010-test_samples-CV0.txt
+5 positivi
+Stringhe di test lette dal file: 5
+**** End of generalization test ****
+Tasso di generalizzazione di EDSM: 100%
+EDSM  DFA path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/3/wwg-DOTedsmALF.dot
+EDSM DFA TXT path: /home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/3/wwg-TXTedsmALF.txt
+
+********  BLUESTAR wwg-cv: 0 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/3/wwg-010-samples-CV0.txt
+10 positivi
+17 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 35 e 22
+ START BlueStar inference process...
+
+ERR: Approximation conditions to Normal Distributions are not satisfied.
+ERR: Details: p: 0.0526316, q: 0.947368, N: 57
+ERR: N*p: 3, N*q: 54
+ERR: The process stop!
+Constraints approximation to Normal Gaussian distr not satisfied
+This inference process is stopped with no DFA; 
+ >---------------------------------------< 
+
+********  BLUESTAR wwg-cv: 1 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/3/wwg-010-samples-CV1.txt
+6 positivi
+18 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 35 e 29
+ START BlueStar inference process...
+
+ERR: Approximation conditions to Normal Distributions are not satisfied.
+ERR: Details: p: 0.046875, q: 0.953125, N: 64
+ERR: N*p: 3, N*q: 61
+ERR: The process stop!
+Constraints approximation to Normal Gaussian distr not satisfied
+This inference process is stopped with no DFA; 
+ >---------------------------------------< 
+
+********  BLUESTAR wwg-cv: 2 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/3/wwg-010-samples-CV2.txt
+10 positivi
+18 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 35 e 23
+ START BlueStar inference process...
+
+ERR: Approximation conditions to Normal Distributions are not satisfied.
+ERR: Details: p: 0.0431034, q: 0.956897, N: 58
+ERR: N*p: 2.5, N*q: 55.5
+ERR: The process stop!
+Constraints approximation to Normal Gaussian distr not satisfied
+This inference process is stopped with no DFA; 
+ >---------------------------------------< 
+
+********  BLUESTAR wwg-cv: 3 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/3/wwg-010-samples-CV3.txt
+9 positivi
+17 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 35 e 22
+ START BlueStar inference process...
+
+ERR: Approximation conditions to Normal Distributions are not satisfied.
+ERR: Details: p: 0.0526316, q: 0.947368, N: 57
+ERR: N*p: 3, N*q: 54
+ERR: The process stop!
+Constraints approximation to Normal Gaussian distr not satisfied
+This inference process is stopped with no DFA; 
+ >---------------------------------------< 
+
+********  BLUESTAR wwg-cv: 4 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/3/wwg-010-samples-CV4.txt
+7 positivi
+18 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 35 e 23
+ START BlueStar inference process...
+
+ERR: Approximation conditions to Normal Distributions are not satisfied.
+ERR: Details: p: 0.0431034, q: 0.956897, N: 58
+ERR: N*p: 2.5, N*q: 55.5
+ERR: The process stop!
+Constraints approximation to Normal Gaussian distr not satisfied
+This inference process is stopped with no DFA; 
+ >---------------------------------------< 
+
+********  BLUESTAR wwg-cv: 5 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/3/wwg-010-samples-CV5.txt
+11 positivi
+17 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 35 e 22
+ START BlueStar inference process...
+
+ERR: Approximation conditions to Normal Distributions are not satisfied.
+ERR: Details: p: 0.0438596, q: 0.95614, N: 57
+ERR: N*p: 2.5, N*q: 54.5
+ERR: The process stop!
+Constraints approximation to Normal Gaussian distr not satisfied
+This inference process is stopped with no DFA; 
+ >---------------------------------------< 
+
+********  BLUESTAR wwg-cv: 6 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/3/wwg-010-samples-CV6.txt
+7 positivi
+18 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 35 e 29
+ START BlueStar inference process...
+
+ERR: Approximation conditions to Normal Distributions are not satisfied.
+ERR: Details: p: 0.046875, q: 0.953125, N: 64
+ERR: N*p: 3, N*q: 61
+ERR: The process stop!
+Constraints approximation to Normal Gaussian distr not satisfied
+This inference process is stopped with no DFA; 
+ >---------------------------------------< 
+
+********  BLUESTAR wwg-cv: 7 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/3/wwg-010-samples-CV7.txt
+8 positivi
+18 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 35 e 23
+ START BlueStar inference process...
+
+ERR: Approximation conditions to Normal Distributions are not satisfied.
+ERR: Details: p: 0.0431034, q: 0.956897, N: 58
+ERR: N*p: 2.5, N*q: 55.5
+ERR: The process stop!
+Constraints approximation to Normal Gaussian distr not satisfied
+This inference process is stopped with no DFA; 
+ >---------------------------------------< 
+
+********  BLUESTAR wwg-cv: 8 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/3/wwg-010-samples-CV8.txt
+10 positivi
+17 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 35 e 22
+ START BlueStar inference process...
+
+ERR: Approximation conditions to Normal Distributions are not satisfied.
+ERR: Details: p: 0.0526316, q: 0.947368, N: 57
+ERR: N*p: 3, N*q: 54
+ERR: The process stop!
+Constraints approximation to Normal Gaussian distr not satisfied
+This inference process is stopped with no DFA; 
+ >---------------------------------------< 
+
+********  BLUESTAR wwg-cv: 9 *********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/3/wwg-010-samples-CV9.txt
+7 positivi
+17 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 35 e 22
+ START BlueStar inference process...
+
+ERR: Approximation conditions to Normal Distributions are not satisfied.
+ERR: Details: p: 0.0438596, q: 0.95614, N: 57
+ERR: N*p: 2.5, N*q: 54.5
+ERR: The process stop!
+Constraints approximation to Normal Gaussian distr not satisfied
+This inference process is stopped with no DFA; 
+ >---------------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wx4 - Utente 010 <--------
+***************************************************
+ - Scrivo su file i samples -
+Prefisso: wx4
+Numero sample positivi: 103
+Numero sample negativi: 15224
+Tot previste pos: 103 | train: 62 - test: 41
+Train finale: 62 - testset finale: 41
+Train finale: 62 - testset finale: 41
+Train finale: 62 - testset finale: 41
+Train finale: 62 - testset finale: 41
+Train finale: 62 - testset finale: 41
+Train finale: 62 - testset finale: 41
+Train finale: 62 - testset finale: 41
+Train finale: 62 - testset finale: 41
+Train finale: 62 - testset finale: 41
+Train finale: 62 - testset finale: 41
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 4041
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 32 samples positivi e 761 negativi
+Scrittura su file del test set
+Su file sono presenti 22 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 2994
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 30 samples positivi e 759 negativi
+Scrittura su file del test set
+Su file sono presenti 23 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 3286
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 30 samples positivi e 762 negativi
+Scrittura su file del test set
+Su file sono presenti 26 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 2998
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 30 samples positivi e 759 negativi
+Scrittura su file del test set
+Su file sono presenti 23 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 3039
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 30 samples positivi e 762 negativi
+Scrittura su file del test set
+Su file sono presenti 24 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 4035
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 33 samples positivi e 760 negativi
+Scrittura su file del test set
+Su file sono presenti 21 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 3000
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 29 samples positivi e 760 negativi
+Scrittura su file del test set
+Su file sono presenti 23 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 3286
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 31 samples positivi e 762 negativi
+Scrittura su file del test set
+Su file sono presenti 26 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 2998
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 30 samples positivi e 759 negativi
+Scrittura su file del test set
+Su file sono presenti 23 test samples
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 3039
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 29 samples positivi e 762 negativi
+Scrittura su file del test set
+Su file sono presenti 24 test samples
+
+******** EDSM wx4  ********
+Reading strings from txt file: 
+/home/gabriele/Dropbox/workspace_github_cpp/GI-geo/experiments/user10_EDSM_05_26_21_08_31/3/wx4-010-samples-CV0.txt
+32 positivi
+761 negativi
+Costruzione APTA...
+PTA costruito
+APTA too big! I can't print it
+ START Edsm inference process...

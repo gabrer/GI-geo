@@ -200,6 +200,7 @@ void geoExp::run_inference_accuracy()
 	if(blueStar)
 		cout << "BlueStar"<<endl;
 
+	cout << "Alpha of Blue*: "<< alpha_value << endl;
 
 	cout << "Database path: "<<db_path<<endl;
 
@@ -226,11 +227,9 @@ void geoExp::run_inference_accuracy()
 		int limit_prefixes_number = 0;
 
 		cout << endl << endl << endl;
-		cout << "***************************************************" << endl;
-		cout << "***************************************************" << endl;
+		cout << "///////////////////////////////////////////////////////" << endl;
 		cout <<  "---------- PREFISSI DI LUNGHEZZA "+intTostring(j)+", utente "+users[user]+" -----------"<<endl;
-		cout << "***************************************************" << endl;
-		cout << "***************************************************" << endl;
+		cout << "///////////////////////////////////////////////////////" << endl;
 
 		clock_t tStart = clock();
 
@@ -291,8 +290,8 @@ void geoExp::run_inference_accuracy()
 			cout << endl << endl << endl << "***************************************************" << endl;
 			cout <<  "------> Current Prefix: "<<*it << " - Utente "+users[user]<< " <--------"<<endl;
 			cout << "***************************************************" << endl;
-			limit_prefixes_number++;
 
+			limit_prefixes_number++;
 
 			string*	test_set = NULL;
 			geodb*	mydb = NULL;
@@ -303,6 +302,10 @@ void geoExp::run_inference_accuracy()
 			double succ_rate = -1;				// Success rate for current prefix
 
 
+			// Current prefix
+			string current_prefix = *it;
+
+			statistics[limit_prefixes_number-1].prefix	= current_prefix;
 
 			// *********************************
 			//     WRITE MINITRAJECTORIES FILE
@@ -311,53 +314,34 @@ void geoExp::run_inference_accuracy()
 			mydb = new geodb(db_path);
 			mydb->connect();
 
-
-			// Current prefix
-			string current_prefix = *it;
-			statistics[limit_prefixes_number-1].prefix= current_prefix;
-
-			clock_t tStart = clock();
-			//cout << "Estraggo e scrivo le minitraiettorie..."<<endl;
-
-
 			// Path per scrivere le minitraiettorie come samples, per il prefisso considerato
 			path_samples		= folder_current_prefix_len + current_prefix;
-			path_training_data	= path_samples + "-samples-CV0.txt";
-			path_test_data 		= path_samples + "-test_samples-CV0.txt";
+			path_training_data	= path_samples + "-" + users[user] + "-samples-CV0.txt";
+			path_test_data 		= path_samples + "-" + users[user] + "-test_samples-CV0.txt";
 
 			int dim_test = 0;
 
 			try
 			{
 				// Scrivi le ministraiettorie di training su file di testo e quelle di test nella variabile locale test_set (puntatore)
-				//write_minitraj_from_db_like_samples(users[i], current_prefix, path_samples );
 				dim_test = write_minitraj_from_db_like_samples_TRAINTEST_TESTSET(users[user], current_prefix, path_samples);
 			}
 			catch (const char* msg )
 			{
 				cout << msg << endl;
 				cout << " >-------------------------------< "<< endl;
-
 				mydb->close();
 				delete mydb;
 
 				continue;
 			}
 
-
 			mydb->close();
 			delete mydb;
 
 
-			printf("Time taken to write minitrajectories to file: %.2fs\n", (double)(clock() - tStart)/CLOCKS_PER_SEC);
 
-
-			tStart = clock();
-
-
-
-
-
+			////////////////////////////////////////////////////////////////////////////////////////////////////////
 			if(edsm)
 			{
 				// *********************
@@ -382,9 +366,7 @@ void geoExp::run_inference_accuracy()
 				// 	    EDSM Statistics
 				// *********************
 
-				statistics[limit_prefixes_number-1].num_states_edsm = EDSM_dfa->get_num_states();
-				statistics[limit_prefixes_number-1].num_actual_merges_edsm = edsm_exe->get_actual_merge();
-				statistics[limit_prefixes_number-1].num_heuristic_evaluations_edsm = edsm_exe->get_heuristic_merge();
+
 
 				// Statistiche di generalizzazione
 				if(dim_test != 0)
@@ -397,7 +379,13 @@ void geoExp::run_inference_accuracy()
 						succ_rate = 1;
 
 
+					statistics[limit_prefixes_number-1].prefix	= current_prefix;
+					statistics[limit_prefixes_number-1].num_states_edsm = EDSM_dfa->get_num_states();
+					statistics[limit_prefixes_number-1].num_actual_merges_edsm = edsm_exe->get_actual_merge();
+					statistics[limit_prefixes_number-1].num_heuristic_evaluations_edsm = edsm_exe->get_heuristic_merge();
+
 					statistics[limit_prefixes_number-1].percentage_positive_edsm =  succ_rate;
+
 					cout << "Tasso di generalizzazione di EDSM: "<<succ_rate*100<<"%"<<endl;
 
 				}
@@ -409,18 +397,21 @@ void geoExp::run_inference_accuracy()
 				// 	    EDSM print
 				// *********************
 
-				// Print automata
-				//EDSM_dfa->print_dfa_ttable("- Edsm dfa -");
-
-				//string ttableEdsmpath = folder_current_prefix_len+"-TABLEedsm.txt";
-				//EDSM_dfa.print_dfa_transition_table_file(ttableEdsmpath.c_str());
-
+				// DOT without alphabet
 				string dotEdsmpath = folder_current_prefix_len+current_prefix+"-DOTedsm.dot";
 				EDSM_dfa->print_dfa_dot("EDSM", dotEdsmpath.c_str());
 
+
+				// DOT with alphabet
 				string dotEdsmpath_alf = folder_current_prefix_len+current_prefix+"-DOTedsmALF.dot";
 				EDSM_dfa->print_dfa_dot_mapped_alphabet("EDSM", dotEdsmpath_alf.c_str());
 				cout << "EDSM  DFA path: "<<dotEdsmpath_alf << endl;
+
+
+				// DFA in txt file
+				string txtEDSMpath_alf_A = folder_current_prefix_len+current_prefix+"-TXTedsmALF.txt";
+				EDSM_dfa->print_dfa_in_text_file(txtEDSMpath_alf_A);
+				cout << "EDSM DFA TXT path: "<<txtEDSMpath_alf_A << endl;
 
 
 				// Delete
@@ -444,8 +435,8 @@ void geoExp::run_inference_accuracy()
 						cout << endl<< "********  BLUESTAR "+current_prefix+"-cv: "+intTostring(i)+" *********" << endl;
 						gi::dfa* BLUESTAR_dfa;
 
-						path_training_data	= path_samples + "-samples-CV"+intTostring(i)+".txt";
-						path_test_data 		= path_samples + "-test_samples-CV"+intTostring(i)+".txt";
+						path_training_data	= path_samples + "-" + users[user] + "-samples-CV"+intTostring(i)+".txt";
+						path_test_data 		= path_samples + "-" + users[user] + "-test_samples-CV"+intTostring(i)+".txt";
 
 
 						// Read positive and negative samples
@@ -485,6 +476,7 @@ void geoExp::run_inference_accuracy()
 								succ_rate = 1;
 
 
+							statistics[limit_prefixes_number-1].prefix = current_prefix;
 							statistics[limit_prefixes_number-1].percentage_positive_bluestar[i] =  succ_rate;
 							statistics[limit_prefixes_number-1].num_states_bluestar[i] = BLUESTAR_dfa->get_num_states();
 							statistics[limit_prefixes_number-1].errore_rate_bluestar[i] = bluestar_exe->get_error_rate_final_dfa();
@@ -515,6 +507,10 @@ void geoExp::run_inference_accuracy()
 						BLUESTAR_dfa->print_dfa_dot_mapped_alphabet("BlueStar", dotBlueStarpath_alf.c_str());
 						cout << "BLUSTAR DFA path: "<<dotBlueStarpath_alf << endl;
 
+						// It prints the inferred automaton in a text file
+						string txtBlueStarpath_alf_A = folder_current_prefix_len+current_prefix+"-CV"+intTostring(i)+"-TXTbluestarALF.txt";
+						BLUESTAR_dfa->print_dfa_in_text_file(txtBlueStarpath_alf_A);
+						cout << "BLUSTAR DFA TXT path: "<<txtBlueStarpath_alf_A << endl;
 
 
 						// free allocated memory
@@ -539,9 +535,9 @@ void geoExp::run_inference_accuracy()
 				write_statistics_files(statistics, prefixes->size(), intTostring(user), false, i);
 
 
-		stat_final_results(statistics, prefixes->size(), intTostring(user), false);
+		stat_final_results(statistics, prefixes->size(), intTostring(user), edsm);
 
-		stat_final_results_minimal(statistics, prefixes->size(), intTostring(user), false);
+		stat_final_results_minimal(statistics, prefixes->size(), intTostring(user), edsm);
 
 
 		prefixes->clear();
@@ -3151,7 +3147,8 @@ void geoExp::stat_heuristic_evaluations(mystat* userstat, int n_prefixes, string
 
 void geoExp::stat_final_results(mystat* userstat, int n_prefixes, string utente, bool is_edsm)
 {
-	string file_path = "";
+	string file_path_BLUESTAR = "";
+
 
 
 	if(K_FOLD_CROSS_VAL == 0){
@@ -3159,27 +3156,41 @@ void geoExp::stat_final_results(mystat* userstat, int n_prefixes, string utente,
 		return;
 	}
 
-	if(is_edsm)
-		file_path = current_exp_folder + "STAT_FINAL_RESULTS_EDSM.txt";
-	else
-		file_path = current_exp_folder+ "STAT_FINAL_RESULTS_BLUESTAR.txt";
 
-	cout << "Statistics file: "<<file_path << endl;
+	string file_path_EDSM = current_exp_folder + "STAT_FINAL_RESULTS_EDSM.txt";
+
+	file_path_BLUESTAR = current_exp_folder+ "STAT_FINAL_RESULTS_BLUESTAR.txt";
+
+	cout << "Statistics file: "<<file_path_BLUESTAR << endl;
 
 
 	// Write in file the positive e negative samples
 	ofstream myfile;
-	myfile.open(file_path.c_str(), ios::app);
+	myfile.open(file_path_BLUESTAR.c_str(), ios::app);
 
 	myfile << endl << endl << "Utente: "<< utente << " - Lunghezza prefisso: "<< intTostring(userstat[0].prefix.length()) << endl;
-	myfile << "Media e varianza del Cross Validation:" << endl;
+	myfile << "Media e varianza del Cross Validation." << endl;
+
+
+	// Accumulatore per i dati per avere un valore complessivo rispetto a tutti i prefissi della lunghezza fissata - BLUESTAR
+	boost::accumulators::accumulator_set<double, boost::accumulators::features<boost::accumulators::tag::mean, boost::accumulators::tag::variance> > value_resulting_from_all_prefixes_together[5];
+
+	// Accumulatore per i dati per avere un valore complessivo rispetto a tutti i prefissi della lunghezza fissata - BLUESTAR
+	boost::accumulators::accumulator_set<double, boost::accumulators::features<boost::accumulators::tag::mean, boost::accumulators::tag::variance> > EDSM_value_resulting_from_all_prefixes_together[4];
+
 
 	for(int i=0; i<n_prefixes; ++i)
 	{
-		if(is_edsm){
 
+		if(is_edsm && userstat[i].num_states_edsm != -1){
+			EDSM_value_resulting_from_all_prefixes_together[0] ( userstat[i].num_states_edsm );
+			EDSM_value_resulting_from_all_prefixes_together[1] ( userstat[i].percentage_positive_edsm );
+			EDSM_value_resulting_from_all_prefixes_together[2] ( userstat[i].num_actual_merges_edsm );
+			EDSM_value_resulting_from_all_prefixes_together[3] ( userstat[i].num_heuristic_evaluations_edsm );
 		}
-		else if ( userstat[i].num_heuristic_evaluations_bluestar[0] != -1 )
+
+
+		if ( userstat[i].num_heuristic_evaluations_bluestar[0] != -1 )
 		{
 			// Accumulatore per i dati
 			boost::accumulators::accumulator_set<double, boost::accumulators::features<boost::accumulators::tag::mean, boost::accumulators::tag::variance> > acc[5];
@@ -3192,11 +3203,18 @@ void geoExp::stat_final_results(mystat* userstat, int n_prefixes, string utente,
 				acc[2] ( userstat[i].errore_rate_bluestar[k] );
 				acc[3] ( userstat[i].num_actual_merges_bluestar[k] );
 				acc[4] ( userstat[i].num_heuristic_evaluations_bluestar[k] );
+
+				value_resulting_from_all_prefixes_together[0] ( userstat[i].num_states_bluestar[k] );
+				value_resulting_from_all_prefixes_together[1] ( userstat[i].percentage_positive_bluestar[k] );
+				value_resulting_from_all_prefixes_together[2] ( userstat[i].errore_rate_bluestar[k] );
+				value_resulting_from_all_prefixes_together[3] ( userstat[i].num_actual_merges_bluestar[k] );
+				value_resulting_from_all_prefixes_together[4] ( userstat[i].num_heuristic_evaluations_bluestar[k] );
 			}
 
 
 			// Scrivo su file
 			myfile << endl << "MEDIE" << endl;
+			myfile << "Prefix: " << userstat[i].prefix << endl;
 			myfile << "Num states B: " << boost::accumulators::mean(acc[0]) << endl;
 			myfile << "Percentage positive B: " << boost::accumulators::mean(acc[1])  << endl;
 			myfile << "Errore Rate B: " << boost::accumulators::mean(acc[2]) << endl;
@@ -3220,18 +3238,140 @@ void geoExp::stat_final_results(mystat* userstat, int n_prefixes, string utente,
 			myfile << "Num heuristic evaluations B: " << sqrt(boost::accumulators::variance(acc[4]))/boost::accumulators::mean(acc[4]) << endl;
 
 		}
-		else
-			myfile << "-" << endl;
+		//else
+		//	myfile << "-" << endl;
 	}
 
 	myfile.close();
+
+
+	// EDSM GRAFICI
+	string graph_title_edsm[4] = {"graph_num_states_edsm", "graph_accuracy_edsm", "graph_actual_merges_edsm", "graph_heuristc_evaluation_edsm"};
+
+	for(int i=0; i<4; ++i)
+	{
+		// Write in file the positive e negative samples
+		ofstream myfile_graph;
+		string graph_path = current_exp_folder + graph_title_edsm[i] + ".txt";
+		myfile_graph.open(graph_path.c_str(), ios::app);
+
+
+		// Stampa lunghezza dei prefissi
+		for(int j=0; j<n_prefixes; ++j)
+			if ( userstat[j].num_heuristic_evaluations_bluestar[0] != -1 ){
+				myfile_graph << intTostring(userstat[j].prefix.length()) << " ";
+				break;
+			}
+
+
+		// Stampa valore media
+		if( i == 0)
+			myfile_graph << boost::accumulators::mean(EDSM_value_resulting_from_all_prefixes_together[0]);
+		else if( i == 1)
+			myfile_graph << boost::accumulators::mean(EDSM_value_resulting_from_all_prefixes_together[1]);
+		else if( i == 2)
+			myfile_graph << boost::accumulators::mean(EDSM_value_resulting_from_all_prefixes_together[2]);
+		else if( i == 3)
+			myfile_graph << boost::accumulators::mean(EDSM_value_resulting_from_all_prefixes_together[3]);
+
+
+		// Stampa dev std
+		if( i == 0)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(EDSM_value_resulting_from_all_prefixes_together[0]));
+		else if( i == 1)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(EDSM_value_resulting_from_all_prefixes_together[1]));
+		else if( i == 2)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(EDSM_value_resulting_from_all_prefixes_together[2]));
+		else if( i == 3)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(EDSM_value_resulting_from_all_prefixes_together[3]));
+
+
+
+		// Stampa dev std normalizzata
+		if( i == 0)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(EDSM_value_resulting_from_all_prefixes_together[0]))/boost::accumulators::mean(EDSM_value_resulting_from_all_prefixes_together[0]) << endl;
+		else if( i == 1)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(EDSM_value_resulting_from_all_prefixes_together[1]))/boost::accumulators::mean(EDSM_value_resulting_from_all_prefixes_together[1])  << endl;
+		else if( i == 2)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(EDSM_value_resulting_from_all_prefixes_together[2]))/boost::accumulators::mean(EDSM_value_resulting_from_all_prefixes_together[2]) << endl;
+		else if( i == 3)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(EDSM_value_resulting_from_all_prefixes_together[3]))/boost::accumulators::mean(EDSM_value_resulting_from_all_prefixes_together[3]) << endl;
+
+
+		myfile_graph.close();
+	}
+
+
+	// BLUESTAR GRAFICI
+	string graph_title[5] = {"graph_num_states_bluestar", "graph_accuracy_bluestar", "graph_error_rate_bluestar", "graph_actual_merges_bluestar", "graph_heuristc_evaluation_blustar"};
+
+	for(int i=0; i<5; ++i)
+	{
+
+		// Write in file the positive e negative samples
+		ofstream myfile_graph;
+		string graph_path = current_exp_folder + graph_title[i] + ".txt";
+		myfile_graph.open(graph_path.c_str(), ios::app);
+
+
+		// Stampa lunghezza dei prefissi
+		for(int j=0; j<n_prefixes; ++j)
+			if ( userstat[j].num_heuristic_evaluations_bluestar[0] != -1 ){
+				myfile_graph << intTostring(userstat[j].prefix.length()) << " ";
+				break;
+			}
+
+
+		// Stampa valore media
+		if( i == 0)
+			myfile_graph << boost::accumulators::mean(value_resulting_from_all_prefixes_together[0]);
+		else if( i == 1)
+			myfile_graph << boost::accumulators::mean(value_resulting_from_all_prefixes_together[1]);
+		else if( i == 2)
+			myfile_graph << boost::accumulators::mean(value_resulting_from_all_prefixes_together[2]);
+		else if( i == 3)
+			myfile_graph << boost::accumulators::mean(value_resulting_from_all_prefixes_together[3]);
+		else if( i == 4)
+			myfile_graph << boost::accumulators::mean(value_resulting_from_all_prefixes_together[4]);
+
+
+		// Stampa dev std
+		if( i == 0)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(value_resulting_from_all_prefixes_together[0]));
+		else if( i == 1)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(value_resulting_from_all_prefixes_together[1]));
+		else if( i == 2)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(value_resulting_from_all_prefixes_together[2]));
+		else if( i == 3)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(value_resulting_from_all_prefixes_together[3]));
+		else if( i == 4)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(value_resulting_from_all_prefixes_together[4]));
+
+
+
+		// Stampa dev std normalizzata
+		if( i == 0)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(value_resulting_from_all_prefixes_together[0]))/boost::accumulators::mean(value_resulting_from_all_prefixes_together[0]) << endl;
+		else if( i == 1)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(value_resulting_from_all_prefixes_together[1]))/boost::accumulators::mean(value_resulting_from_all_prefixes_together[1])  << endl;
+		else if( i == 2)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(value_resulting_from_all_prefixes_together[2]))/boost::accumulators::mean(value_resulting_from_all_prefixes_together[2]) << endl;
+		else if( i == 3)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(value_resulting_from_all_prefixes_together[3]))/boost::accumulators::mean(value_resulting_from_all_prefixes_together[3]) << endl;
+		else if( i == 4)
+			myfile_graph << "   " << sqrt(boost::accumulators::variance(value_resulting_from_all_prefixes_together[4]))/boost::accumulators::mean(value_resulting_from_all_prefixes_together[4])  << endl;
+
+
+		myfile_graph.close();
+	}
+
 }
 
 
 
 void geoExp::stat_final_results_minimal(mystat* userstat, int n_prefixes, string utente, bool is_edsm)
 {
-	string file_path = "";
+	string file_path_BLUESTAR = "";
 
 
 	if(K_FOLD_CROSS_VAL == 0){
@@ -3239,17 +3379,17 @@ void geoExp::stat_final_results_minimal(mystat* userstat, int n_prefixes, string
 		return;
 	}
 
-	if(is_edsm)
-		file_path = current_exp_folder + "STAT_MINIMAL_FINAL_RESULTS_EDSM.txt";
-	else
-		file_path = current_exp_folder+ "STAT_MINIMAL_FINAL_RESULTS_BLUESTAR.txt";
 
-	cout << "Statistics file: "<<file_path << endl;
+	file_path_BLUESTAR = current_exp_folder + "STAT_MINIMAL_FINAL_RESULTS_EDSM.txt";
+
+	string file_path_EDSM = current_exp_folder+ "STAT_MINIMAL_FINAL_RESULTS_BLUESTAR.txt";
+
+	cout << "Statistics file: "<<file_path_BLUESTAR << endl;
 
 
 	// Write in file the positive e negative samples
 	ofstream myfile;
-	myfile.open(file_path.c_str(), ios::app);
+	myfile.open(file_path_BLUESTAR.c_str(), ios::app);
 
 	myfile << endl << endl << "Utente: "<< utente << " - Lunghezza prefisso: "<< intTostring(userstat[0].prefix.length()) << endl;
 	myfile << "Media e varianza del Cross Validation:" << endl;
@@ -3277,6 +3417,7 @@ void geoExp::stat_final_results_minimal(mystat* userstat, int n_prefixes, string
 
 			// Scrivo su file
 			myfile << endl << "MEDIE" << endl;
+			myfile << "Prefix: " << userstat[0].prefix << endl;
 			myfile << boost::accumulators::mean(acc[0]) << endl;
 			myfile << boost::accumulators::mean(acc[1])  << endl;
 			myfile << boost::accumulators::mean(acc[2]) << endl;
@@ -3300,8 +3441,8 @@ void geoExp::stat_final_results_minimal(mystat* userstat, int n_prefixes, string
 			myfile << sqrt(boost::accumulators::variance(acc[4]))/boost::accumulators::mean(acc[4]) << endl;
 
 		}
-		else
-			myfile << "-" << endl;
+		//else
+		//	myfile << "-" << endl;
 	}
 
 	myfile.close();

@@ -80,24 +80,23 @@ int main(int argc, char* argv[]){
 	cout << "///////////////////////////////////////////////////////////////////////////////////////////////"<<endl;
 
 	int 	min_l_prefix = 1;
-	int		max_l_prefix = 6;				// Ex: se metti 2, il prefisso è lungo 1 mentre la cella è identificata da stringa l=2:avremo quindi prefix: "w" e cella "wy", "w3", etc
+	int		max_l_prefix = 7;				// Ex: se metti 2, il prefisso è lungo 1 mentre la cella è identificata da stringa l=2:avremo quindi prefix: "w" e cella "wy", "w3", etc
 	bool 	no_repetitions_inside_strings = true;
 	int		train_prop = 60;
 	int		num_random_sets = 10;
 	double 	cold_start_prop = 0.25;
-	bool 	edsm = false;
+	bool 	edsm = true;
 	bool 	bluestar = true;
-	double 	alpha = 0.01;
+	double 	alpha = 0.01; 	//0.05 //0.025
 	double 	delta = 1000.0;
 
 	geoExp* myexp = new geoExp(db_path, user, min_l_prefix, max_l_prefix, no_repetitions_inside_strings, train_prop, cold_start_prop, num_random_sets, edsm, bluestar, alpha, delta);
 
-	myexp->run_inference_splitting_users();
+	//myexp->run_inference_splitting_users();
 	//myexp->run_inference_similarity();
 	//myexp->run_inference_coldstart_similarity();
+	myexp->run_inference_accuracy();
 	exit(EXIT_SUCCESS);
-	//myexp->run_inference_accuracy();
-
 
 
 
