@@ -94,8 +94,8 @@ int main(int argc, char* argv[]){
 
 	//myexp->run_inference_splitting_users();
 	//myexp->run_inference_similarity();
-	//myexp->run_inference_coldstart_similarity();
-	myexp->run_inference_accuracy();
+	myexp->run_inference_coldstart_similarity();
+	//myexp->run_inference_accuracy();
 	exit(EXIT_SUCCESS);
 
 
